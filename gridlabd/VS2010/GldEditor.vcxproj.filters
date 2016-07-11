@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Gridlabd core">
+      <UniqueIdentifier>{aef98058-a7a7-4927-bc8a-faeaaaf5369d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gridlabd core\Header Files">
+      <UniqueIdentifier>{f8bd0b30-f9cc-42da-8781-3b34002f279b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gridlabd core\Source Files">
+      <UniqueIdentifier>{ef020ea8-ae0a-420e-9ec1-19d07d9bc1a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\GldEditor\ControlView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GldEditor\GldEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GldEditor\GldEditorDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GldEditor\GldEditorView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GldEditor\LeftView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GldEditor\MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GldEditor\OutputView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GldEditor\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\aggregate.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\class.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\cmdarg.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\convert.cpp">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\debug.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\enduse.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\environment.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\exception.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\exec.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\find.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\globals.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\index.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\interpolate.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\kill.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\kml.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\legal.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\list.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\load.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\load_xml.cpp">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\load_xml_handle.cpp">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\loadshape.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\local.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\main.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\match.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\matlab.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\module.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\object.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\output.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\random.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\realtime.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\save.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\schedule.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\stream.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\test.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\test_framework.cpp">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\threadpool.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\timestamp.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\unit.c">
+      <Filter>Gridlabd core\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\GldEditor\ControlView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GldEditor\GldEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GldEditor\GldEditorDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GldEditor\GldEditorView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GldEditor\LeftView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GldEditor\MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GldEditor\OutputView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GldEditor\Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GldEditor\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\aggregate.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\class.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\cmdarg.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\cmex.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\complex.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\convert.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\debug.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\enduse.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\environment.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\exception.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\exec.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\find.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\globals.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\gridlabd.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\index.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\interpolate.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\kill.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\kml.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\legal.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\list.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\load.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\load_xml.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\load_xml_handle.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\loadshape.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\local.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\lock.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\match.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\matlab.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\module.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\object.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\output.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\platform.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\random.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\realtime.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\save.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\schedule.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\stream.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\test.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\test_callbacks.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\test_framework.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\threadpool.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\timestamp.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\unit.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\version.h">
+      <Filter>Gridlabd core\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\GldEditor\res\GldEditor.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\GldEditor\res\GldEditor.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\GldEditor\res\GldEditorDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\GldEditor\res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="GldEditor.reg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\GldEditor\GldEditor.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

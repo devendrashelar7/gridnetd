@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="QuickDebug|Win32">
+      <Configuration>QuickDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="QuickDebug|x64">
+      <Configuration>QuickDebug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{11E2543D-382E-4F7D-B76D-A6EC571F2D27}</ProjectGuid>
+    <RootNamespace>gridlabd</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean Condition="'$(Configuration)|$(Platform)'=='Release|x64'">*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'">.\\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'">$(Configuration)\</IntDir>
+    <ExtensionsToDeleteOnClean Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'">*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'">.\\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <ExtensionsToDeleteOnClean Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'">*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <CustomBuildStep>
+      <Message>Copying Microsoft Runtime</Message>
+      <Command>xcopy /d /y "$(VCInstallDir)\redist\Debug_NonRedist\x86\Microsoft.VC80.DebugCRT\*.*" "$(OutDir)"
+</Command>
+      <Outputs>$(OutDir)Microsoft.VC80.DebugCRT.manifest;$(OutDir)msvcm80d.dll;$(OutDir)msvcp80d.dll;$(OutDir)msvcr80d.dll;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\third_party\cppunit-1.12.0\include;..\third_party\xerces-c-3.1.1\src;..\pthreads;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;PAUSE_AT_EXIT;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xerces-c_3D.lib;user32.lib;pthreadVC2.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(SolutionName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);..\pthreads;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>
+      </ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Message>Updating XSL file in $(SolutionDir) for $(TargetPath)</Message>
+      <Command>set GLPATH=win32\debug%3bcore\rt%3bcore
+set TZ=PST+8PDT
+"$(TargetPath)" --xsl climate,commercial,generators,market,network,plc,powerflow,residential,tape
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <CustomBuildStep>
+      <Message>Copying Microsoft Runtime</Message>
+      <Command>xcopy /d /y "$(VCInstallDir)\redist\Debug_NonRedist\amd64\Microsoft.VC80.DebugCRT\*.*" "$(OutDir)"
+</Command>
+      <Outputs>$(OutDir)Microsoft.VC80.DebugCRT.manifest;$(OutDir)msvcm80d.dll;$(OutDir)msvcp80d.dll;$(OutDir)msvcr80d.dll;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\third_party\cppunit-1.12.0\include;..\third_party\xerces-c-src_2_8_0\src;..\pthreads;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;PAUSE_AT_EXIT;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xerces-c_2D.lib;pthreadVC2.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(SolutionName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);..\pthreads;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <CustomBuildStep>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+      <Outputs>
+      </Outputs>
+    </CustomBuildStep>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\third_party\cppunit-1.12.0\include;..\third_party\xerces-c-3.1.1\src;..\pthreads;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_DEPRECATE;_NO_CPPUNIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xerces-c_3.lib;pthreads.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(SolutionName).exe</OutputFile>
+      <AdditionalLibraryDirectories>..\third_party\xerces-c-3.1.1\Build\Win32\VC10\Release;$(OutDir);..\pthreads;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <CustomBuildStep>
+      <Message>Copying Microsoft Runtime</Message>
+      <Command>xcopy /d /y "$(VCInstallDir)\redist\amd64\Microsoft.VC80.CRT\*.*" "$(OutDir)"
+</Command>
+      <Outputs>$(OutDir)Microsoft.VC80.CRT.manifest;$(OutDir)msvcm80.dll;$(OutDir)msvcp80.dll;$(OutDir)msvcr80.dll;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\third_party\cppunit-1.12.0\include;..\third_party\xerces-c-src_2_8_0\src;..\pthreads;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_DEPRECATE;_NO_CPPUNIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xerces-c_2.lib;pthreadVC2.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(SolutionName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);..\pthreads;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'">
+    <CustomBuildStep>
+      <Message>Copying Microsoft Runtime</Message>
+      <Command>xcopy /d /y "$(VCInstallDir)\redist\Debug_NonRedist\x86\Microsoft.VC80.DebugCRT\*.*" "$(OutDir)"
+</Command>
+      <Outputs>$(OutDir)Microsoft.VC80.DebugCRT.manifest;$(OutDir)msvcm80d.dll;$(OutDir)msvcp80d.dll;$(OutDir)msvcr80d.dll;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\third_party\cppunit-1.12.0\include;..\third_party\xerces-c-src_2_8_0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;PAUSE_AT_EXIT;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xerces-c_2D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(SolutionName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>
+      </ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'">
+    <CustomBuildStep>
+      <Message>Copying Microsoft Runtime</Message>
+      <Command>xcopy /d /y "$(VCInstallDir)\redist\Debug_NonRedist\amd64\Microsoft.VC80.DebugCRT\*.*" "$(OutDir)"
+</Command>
+      <Outputs>$(OutDir)Microsoft.VC80.DebugCRT.manifest;$(OutDir)msvcm80d.dll;$(OutDir)msvcp80d.dll;$(OutDir)msvcr80d.dll;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\third_party\cppunit-1.12.0\include;..\third_party\xerces-c-src_2_8_0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;PAUSE_AT_EXIT;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xerces-c_2D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(SolutionName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\core\aggregate.c" />
+    <ClCompile Include="..\core\class.c" />
+    <ClCompile Include="..\core\cmdarg.c" />
+    <ClCompile Include="..\core\convert.cpp" />
+    <ClCompile Include="..\core\debug.c" />
+    <ClCompile Include="..\core\enduse.c" />
+    <ClCompile Include="..\core\environment.c" />
+    <ClCompile Include="..\core\exception.c" />
+    <ClCompile Include="..\core\exec.c" />
+    <ClCompile Include="..\core\find.c" />
+    <ClCompile Include="..\core\globals.c" />
+    <ClCompile Include="..\core\gui.c" />
+    <ClCompile Include="..\core\index.c" />
+    <ClCompile Include="..\core\interpolate.c" />
+    <ClCompile Include="..\core\kill.c" />
+    <ClCompile Include="..\core\kml.c" />
+    <ClCompile Include="..\core\legal.c" />
+    <ClCompile Include="..\core\list.c" />
+    <ClCompile Include="..\core\load.c" />
+    <ClCompile Include="..\core\load_xml.cpp" />
+    <ClCompile Include="..\core\load_xml_handle.cpp" />
+    <ClCompile Include="..\core\loadshape.c" />
+    <ClCompile Include="..\core\local.c" />
+    <ClCompile Include="..\core\main.c" />
+    <ClCompile Include="..\core\match.c" />
+    <ClCompile Include="..\core\matlab.c" />
+    <ClCompile Include="..\core\module.c" />
+    <ClCompile Include="..\core\object.c" />
+    <ClCompile Include="..\core\output.c" />
+    <ClCompile Include="..\core\random.c" />
+    <ClCompile Include="..\core\realtime.c" />
+    <ClCompile Include="..\core\save.c" />
+    <ClCompile Include="..\core\schedule.c" />
+    <ClCompile Include="..\core\server.c" />
+    <ClCompile Include="..\core\stream.c" />
+    <ClCompile Include="..\core\test.c" />
+    <ClCompile Include="..\core\threadpool.c" />
+    <ClCompile Include="..\core\timestamp.c" />
+    <ClCompile Include="..\core\unit.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\core\aggregate.h" />
+    <ClInclude Include="..\core\class.h" />
+    <ClInclude Include="..\core\cmdarg.h" />
+    <ClInclude Include="..\core\complex.h" />
+    <ClInclude Include="..\core\config.h" />
+    <ClInclude Include="..\core\convert.h" />
+    <ClInclude Include="..\core\debug.h" />
+    <ClInclude Include="..\core\enduse.h" />
+    <ClInclude Include="..\core\environment.h" />
+    <ClInclude Include="..\core\exception.h" />
+    <ClInclude Include="..\core\exec.h" />
+    <ClInclude Include="..\core\find.h" />
+    <ClInclude Include="..\core\globals.h" />
+    <ClInclude Include="..\core\gridlabd.h" />
+    <ClInclude Include="..\core\gui.h" />
+    <ClInclude Include="..\core\index.h" />
+    <ClInclude Include="..\core\interpolate.h" />
+    <ClInclude Include="..\core\kill.h" />
+    <ClInclude Include="..\core\kml.h" />
+    <ClInclude Include="..\core\legal.h" />
+    <ClInclude Include="..\core\list.h" />
+    <ClInclude Include="..\core\load.h" />
+    <ClInclude Include="..\core\load_xml.h" />
+    <ClInclude Include="..\core\load_xml_handle.h" />
+    <ClInclude Include="..\core\loadshape.h" />
+    <ClInclude Include="..\core\local.h" />
+    <ClInclude Include="..\core\lock.h" />
+    <ClInclude Include="..\core\match.h" />
+    <ClInclude Include="..\core\matlab.h" />
+    <ClInclude Include="..\core\module.h" />
+    <ClInclude Include="..\core\object.h" />
+    <ClInclude Include="..\core\output.h" />
+    <ClInclude Include="..\core\platform.h" />
+    <ClInclude Include="..\core\random.h" />
+    <ClInclude Include="..\core\realtime.h" />
+    <ClInclude Include="..\core\save.h" />
+    <ClInclude Include="..\core\schedule.h" />
+    <ClInclude Include="..\core\server.h" />
+    <ClInclude Include="..\core\stream.h" />
+    <ClInclude Include="..\core\threadpool.h" />
+    <ClInclude Include="..\core\timestamp.h" />
+    <ClInclude Include="..\core\unit.h" />
+    <ClInclude Include="..\core\version.h" />
+    <ClInclude Include="..\core\asm\x86\cmpxchg.h" />
+    <ClInclude Include="..\core\asm\x86_64\cmpxchg.h" />
+    <ClInclude Include="..\core\asm\cmpxchg.h" />
+    <ClInclude Include="..\core\rt\gridlabd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\aminclude.am" />
+    <None Include="..\BUILD" />
+    <None Include="..\compare-sources" />
+    <None Include="..\configure.ac" />
+    <None Include="..\Makefile.am" />
+    <None Include="..\automake.bat" />
+    <None Include="..\configure.bat" />
+    <None Include="..\makefile.win" />
+    <None Include="..\core\makefile.win" />
+    <None Include="..\core\test\alternate.glm" />
+    <None Include="..\core\test\complex.glm" />
+    <None Include="..\core\test\debugger.conf" />
+    <None Include="..\core\test\gnuplot.conf" />
+    <None Include="..\core\test\gridlabd.conf" />
+    <None Include="..\core\test\gui_example_1.glm" />
+    <None Include="..\core\test\gui_example_2.glm" />
+    <None Include="..\core\test\gui_example_3.glm" />
+    <CustomBuild Include="..\test\input\memory_tape.glm">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+    </CustomBuild>
+    <None Include="..\core\test\metronome.glm" />
+    <None Include="..\core\test\mingw.conf" />
+    <None Include="..\core\test\namespace.glm" />
+    <None Include="..\test\input\office1000.glm" />
+    <None Include="..\core\test\olypen.glm" />
+    <None Include="..\core\test\olypen_clallam_temperature.tape" />
+    <None Include="..\core\test\olypen_cooking.shape" />
+    <None Include="..\core\test\olypen_expmt.glm" />
+    <None Include="..\core\test\olypen_fixed_price.shape" />
+    <None Include="..\core\test\olypen_hotwater.shape" />
+    <None Include="..\core\test\olypen_library.glm" />
+    <None Include="..\core\test\olypen_lighting.shape" />
+    <None Include="..\core\test\olypen_midc_price.tape" />
+    <None Include="..\core\test\olypen_occupancy.shape" />
+    <None Include="..\core\test\olypen_plugs.shape" />
+    <None Include="..\core\test\olypen_tou_price.shape" />
+    <None Include="..\core\test\olypen_tou_price.tape" />
+    <None Include="..\core\test\olypen_washing.shape" />
+    <None Include="..\test\input\pnnl14bus.glm" />
+    <None Include="..\test\input\pnnl300bus.glm" />
+    <None Include="..\core\test\randoms.glm" />
+    <None Include="..\test\input\residential_1home.glm" />
+    <None Include="..\test\input\residential_5home.glm" />
+    <None Include="..\test\input\residential_meter.glm" />
+    <None Include="..\core\test\stylesheet.glm" />
+    <None Include="..\core\test\timestamp.glm" />
+    <None Include="..\core\test\timestamp_euro.glm" />
+    <None Include="..\core\test\timestamp_us.glm" />
+    <None Include="..\core\test\US OR Medford.tmy" />
+    <None Include="..\test\input\wheatstone_bridge.glm" />
+    <None Include="..\core\autotest\test_alternate_syntax.glm" />
+    <None Include="..\core\autotest\test_err_duplicate_function.glm" />
+    <None Include="..\core\autotest\test_exc_duplicate_function.glm" />
+    <None Include="..\core\autotest\test_group_opt.glm" />
+    <None Include="..\core\autotest\test_schedule_xform.glm" />
+    <None Include="..\core\rt\debugger.conf" />
+    <None Include="..\core\rt\gnuplot.conf" />
+    <None Include="..\core\rt\gridlabd.conf" />
+    <None Include="..\core\rt\mingw.conf" />
+    <None Include="..\core\rt\gridlabd.syn" />
+    <CustomBuild Include="..\core\tzinfo.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Copying %(FullPath)</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy /y "%(FullPath)" "$(OutDir)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)%(Filename)%(Extension);%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying runtime file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">copy /y "%(FullPath)" "$(OutDir)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)%(Filename)%(Extension);%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'">Copying runtime file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'">copy /y "%(FullPath)" "$(OutDir)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'">$(OutDir)%(Filename)%(Extension);%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'">Copying runtime file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'">copy /y "%(FullPath)" "$(OutDir)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'">$(OutDir)%(Filename)%(Extension);%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Copying runtime file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy /y "%(FullPath)" "$(OutDir)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)%(Filename)%(Extension);%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying runtime file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">copy /y "%(FullPath)" "$(OutDir)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)%(Filename)%(Extension);%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\core\unitfile.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Copying %(FullPath)</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy /y "%(FullPath)" "$(OutDir)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)%(Filename)%(Extension);%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying runtime file</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">copy /y "%(FullPath)" "$(OutDir)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)%(Filename)%(Extension);%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'">Copying runtime file</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'">copy /y "%(FullPath)" "$(OutDir)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'">$(OutDir)%(Filename)%(Extension);%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'">Copying runtime file</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'">copy /y "%(FullPath)" "$(OutDir)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'">$(OutDir)%(Filename)%(Extension);%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Copying runtime file</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy /y "%(FullPath)" "$(OutDir)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)%(Filename)%(Extension);%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying runtime file</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">copy /y "%(FullPath)" "$(OutDir)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)%(Filename)%(Extension);%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="..\models\COPYRIGHT" />
+    <None Include="..\models\dryer.shape" />
+    <None Include="..\models\LICENSE" />
+    <None Include="..\models\lighting.player" />
+    <None Include="..\models\powerflow_IEEE_37node.glm" />
+    <None Include="..\models\powerflow_IEEE_4node.glm" />
+    <None Include="..\models\README" />
+    <None Include="..\models\residential_loads.glm" />
+    <None Include="..\models\STATUS" />
+    <None Include="..\COPYRIGHT" />
+    <None Include="..\LICENSE" />
+    <None Include="..\README-LINUX" />
+    <None Include="..\RELEASE" />
+    <None Include="..\STATUS" />
+    <None Include="..\VERSION" />
+    <None Include="..\core\rt\favicon.ico" />
+    <None Include="..\core\rt\gridlabd.css" />
+    <None Include="..\core\rt\gridlabd.js" />
+    <None Include="..\core\gui\tab_b.gif" />
+    <None Include="..\core\gui\tab_l.gif" />
+    <None Include="..\core\gui\tab_r.gif" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="superLU_MT.vcxproj">
+      <Project>{df17498a-83b3-46ce-95ea-c7515c0310a0}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

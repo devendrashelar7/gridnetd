@@ -1,0 +1,23 @@
+## -*- Mode: python; py-indent-offset: 4; indent-tabs-mode: nil; coding: utf-8; -*-
+
+def configure(conf):
+#     conf.check_nonfatal(header_name='stdint.h', define_name='HAVE_STDINT_H')
+	conf.env.append_value("LINKFLAGS", ["-lRTI-NG64", 
+		"-lFedTime64", 
+		"-L/Users/devendrashelar7/workspace/electricDistributionSystems/ns-allinone-3.18.2/ns-3.18.1/src/rti/lib/gcc4"])	
+	
+	conf.env.append_value("CXXFLAGS", ["-O1", "-fPIC", "-DRTI_USES_STD_FSTREAM","-lRTI-NG64", 
+		"-lFedTime64", 
+		"-L/Users/devendrashelar7/workspace/electricDistributionSystems/ns-allinone-3.18.2/ns-3.18.1/src/rti/lib/gcc4",
+		"-I/Users/devendrashelar7/workspace/electricDistributionSystems/ns-allinone-3.18.2/ns-3.18.1/src/rti/model"])
+	conf.env.append_value("LIB", ["RTI-NG64", "FedTime64"]) 
+	
+	conf.env['FedTime64'] = conf.check(mandatory=True, lib='FedTime64')
+	conf.env['RTI_NG64'] = conf.check(mandatory=True, lib='RTI-NG64')
+
+
+def build(bld):
+    obj = bld.create_ns3_program('udp-echo', ['csma', 'internet'])
+    obj.source = 'udp-echo.cc'
+	#ndssObj = bld.create_ns3_program('ndss', ['csma', 'internet', 'core', 'rti'])
+    #ndssObj.source = 'ndss.cc'

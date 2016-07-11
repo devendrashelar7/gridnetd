@@ -1,0 +1,14 @@
+# file...... models/myTests/switch_current_A_ns3.csv
+# date...... Wed Aug 20 16:15:34 2014
+# user...... devendrashelar7
+# host...... (null)
+# target.... switch 9
+# trigger... (none)
+# interval.. 120
+# limit..... 0
+# timestamp,current_in_A.real,current_in_A.imag
+2000-01-01 00:00:00 EST,+118.392,-223.091
+2000-01-01 00:02:00 EST,+135.955,-231.647
+2000-01-01 00:04:00 EST,+153.759,-240.357
+2000-01-01 00:06:00 EST,+135.955,-231.647
+2000-01-01 00:08:00 EST,+153.759,-240.357

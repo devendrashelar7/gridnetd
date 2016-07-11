@@ -1,0 +1,9 @@
+# absolute timestamp - read on the first pass
+2000-01-01 00:00:00, -85000.000000-40000.000000j
+#2000-01-01 00:00:00, -0-0j
+
+# relative timestamp - read on every pass
++2m, 0+0j
++2m, 85000.000000+40000.000000j
+#+1s, 0+0j
+#+1s, 0+0j

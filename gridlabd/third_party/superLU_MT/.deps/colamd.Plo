@@ -1,0 +1,32 @@
+colamd.lo: colamd.c \
+ /opt/local/lib/gcc47/gcc/x86_64-apple-darwin15/4.7.4/include-fixed/limits.h \
+ /opt/local/lib/gcc47/gcc/x86_64-apple-darwin15/4.7.4/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/sys/cdefs.h \
+ /usr/include/sys/_symbol_aliasing.h \
+ /usr/include/sys/_posix_availability.h /usr/include/machine/limits.h \
+ /usr/include/i386/limits.h /usr/include/i386/_limits.h \
+ /usr/include/sys/syslimits.h colamd.h /usr/include/assert.h
+
+/opt/local/lib/gcc47/gcc/x86_64-apple-darwin15/4.7.4/include-fixed/limits.h:
+
+/opt/local/lib/gcc47/gcc/x86_64-apple-darwin15/4.7.4/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/_symbol_aliasing.h:
+
+/usr/include/sys/_posix_availability.h:
+
+/usr/include/machine/limits.h:
+
+/usr/include/i386/limits.h:
+
+/usr/include/i386/_limits.h:
+
+/usr/include/sys/syslimits.h:
+
+colamd.h:
+
+/usr/include/assert.h:

@@ -1,0 +1,11 @@
+This VS2010 build is still a work in progress.  Currently there are a couple of 
+steps that are still required to build Gridlabd in VS2010 that were automated in
+VS2005.
+
+1. Extract the xerces-c-3.1.1 release.  I have included it in zip form in the 
+third_party directory.  Extract it in that directory.
+
+2. You must build the release configuration.  This is a problem we had in 2005 as
+well.  I don't like it, but for some reason symbols aren't getting properly exported
+in some third party libraries under the debug configuration.  I want to fix this,
+but for now build the release configuration, not the debug.

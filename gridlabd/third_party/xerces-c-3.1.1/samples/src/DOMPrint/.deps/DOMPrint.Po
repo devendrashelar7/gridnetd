@@ -1,0 +1,779 @@
+src/DOMPrint/DOMPrint.o src/DOMPrint/DOMPrint.o:  \
+ src/DOMPrint/DOMPrint.cpp ../src/xercesc/util/PlatformUtils.hpp \
+  ../src/xercesc/util/XercesDefs.hpp \
+  ../src/xercesc/util/Xerces_autoconf_config.hpp /usr/include/inttypes.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_symbol_aliasing.h \
+  /usr/include/sys/_posix_availability.h /usr/include/_types.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/i386/_types.h /usr/include/stdint.h \
+  /usr/include/sys/types.h /usr/include/sys/appleapiopts.h \
+  /usr/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/i386/_types.h /usr/include/machine/endian.h \
+  /usr/include/i386/endian.h /usr/include/sys/_endian.h \
+  /usr/include/libkern/_OSByteOrder.h \
+  /usr/include/libkern/i386/_OSByteOrder.h /usr/include/sys/_structs.h \
+  ../src/xercesc/util/XercesVersion.hpp \
+  ../src/xercesc/util/XMLException.hpp ../src/xercesc/util/XMemory.hpp \
+  /usr/include/stdlib.h /usr/include/Availability.h \
+  /usr/include/AvailabilityInternal.h /usr/include/sys/wait.h \
+  /usr/include/sys/signal.h /usr/include/machine/signal.h \
+  /usr/include/i386/signal.h /usr/include/i386/_structs.h \
+  /usr/include/machine/_structs.h /usr/include/mach/i386/_structs.h \
+  /usr/include/sys/resource.h /usr/include/alloca.h \
+  ../src/xercesc/util/XMLExceptMsgs.hpp ../src/xercesc/dom/DOMError.hpp \
+  ../src/xercesc/util/XMLUni.hpp \
+  ../src/xercesc/framework/XMLErrorReporter.hpp \
+  ../src/xercesc/util/PanicHandler.hpp ../src/xercesc/util/XMLFileMgr.hpp \
+  ../src/xercesc/util/XMLMutexMgr.hpp ../src/xercesc/dom/DOM.hpp \
+  ../src/xercesc/dom/DOMAttr.hpp ../src/xercesc/dom/DOMNode.hpp \
+  ../src/xercesc/dom/DOMCDATASection.hpp ../src/xercesc/dom/DOMText.hpp \
+  ../src/xercesc/dom/DOMCharacterData.hpp \
+  ../src/xercesc/dom/DOMComment.hpp ../src/xercesc/dom/DOMDocument.hpp \
+  ../src/xercesc/dom/DOMDocumentRange.hpp \
+  ../src/xercesc/dom/DOMDocumentTraversal.hpp \
+  ../src/xercesc/dom/DOMNodeFilter.hpp \
+  ../src/xercesc/dom/DOMXPathEvaluator.hpp \
+  ../src/xercesc/dom/DOMXPathResult.hpp \
+  ../src/xercesc/dom/DOMDocumentFragment.hpp \
+  ../src/xercesc/dom/DOMDocumentType.hpp \
+  ../src/xercesc/dom/DOMElement.hpp ../src/xercesc/dom/DOMEntity.hpp \
+  ../src/xercesc/dom/DOMEntityReference.hpp \
+  ../src/xercesc/dom/DOMException.hpp \
+  ../src/xercesc/dom/DOMImplementation.hpp \
+  ../src/xercesc/dom/DOMImplementationLS.hpp \
+  ../src/xercesc/dom/DOMLSException.hpp \
+  ../src/xercesc/dom/DOMRangeException.hpp \
+  ../src/xercesc/dom/DOMNamedNodeMap.hpp \
+  ../src/xercesc/dom/DOMNodeList.hpp ../src/xercesc/dom/DOMNotation.hpp \
+  ../src/xercesc/dom/DOMProcessingInstruction.hpp \
+  ../src/xercesc/dom/DOMNodeIterator.hpp ../src/xercesc/dom/DOMRange.hpp \
+  ../src/xercesc/dom/DOMTreeWalker.hpp ../src/xercesc/dom/DOMLSParser.hpp \
+  ../src/xercesc/dom/DOMConfiguration.hpp \
+  ../src/xercesc/util/XMLString.hpp \
+  ../src/xercesc/util/BaseRefVectorOf.hpp \
+  ../src/xercesc/util/ArrayIndexOutOfBoundsException.hpp \
+  ../src/xercesc/util/XMLEnumerator.hpp \
+  ../src/xercesc/framework/MemoryManager.hpp \
+  ../src/xercesc/util/BaseRefVectorOf.c \
+  ../src/xercesc/framework/XMLBuffer.hpp /usr/include/string.h \
+  /usr/include/strings.h /usr/include/assert.h \
+  ../src/xercesc/util/RefVectorOf.hpp ../src/xercesc/util/RefVectorOf.c \
+  ../src/xercesc/dom/DOMStringList.hpp \
+  ../src/xercesc/dom/DOMLSParserFilter.hpp \
+  ../src/xercesc/validators/common/Grammar.hpp \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h \
+  /Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h \
+  /Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/i386/_limits.h \
+  /usr/include/sys/syslimits.h \
+  ../src/xercesc/framework/XMLElementDecl.hpp \
+  ../src/xercesc/framework/XMLAttr.hpp ../src/xercesc/util/QName.hpp \
+  ../src/xercesc/util/XMLUniDefs.hpp \
+  ../src/xercesc/internal/XSerializable.hpp \
+  ../src/xercesc/internal/XSerializeEngine.hpp \
+  ../src/xercesc/util/RefHashTableOf.hpp ../src/xercesc/util/Hashers.hpp \
+  ../src/xercesc/util/IllegalArgumentException.hpp \
+  ../src/xercesc/util/NoSuchElementException.hpp \
+  ../src/xercesc/util/RuntimeException.hpp \
+  ../src/xercesc/util/RefHashTableOf.c ../src/xercesc/util/Janitor.hpp \
+  ../src/xercesc/util/Janitor.c \
+  ../src/xercesc/util/NullPointerException.hpp /usr/include/c++/4.2.1/new \
+  /usr/include/c++/4.2.1/cstddef /usr/include/c++/4.2.1/bits/c++config.h \
+  /usr/include/c++/4.2.1/bits/os_defines.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/sys/select.h \
+  /usr/include/sys/_select.h /usr/include/c++/4.2.1/bits/cpu_defines.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h \
+  /usr/include/c++/4.2.1/exception ../src/xercesc/util/ValueVectorOf.hpp \
+  ../src/xercesc/util/ValueVectorOf.c \
+  ../src/xercesc/internal/XSerializationException.hpp \
+  ../src/xercesc/internal/XProtoType.hpp \
+  ../src/xercesc/framework/XMLAttDef.hpp \
+  ../src/xercesc/validators/datatype/DatatypeValidator.hpp \
+  ../src/xercesc/util/KVStringPair.hpp \
+  ../src/xercesc/util/regx/RegularExpression.hpp \
+  ../src/xercesc/util/RefArrayVectorOf.hpp \
+  ../src/xercesc/util/RefArrayVectorOf.c ../src/xercesc/util/regx/Op.hpp \
+  ../src/xercesc/util/regx/TokenFactory.hpp \
+  ../src/xercesc/util/regx/Token.hpp ../src/xercesc/util/Mutexes.hpp \
+  ../src/xercesc/util/regx/BMPattern.hpp \
+  ../src/xercesc/util/regx/OpFactory.hpp \
+  ../src/xercesc/util/regx/RegxUtil.hpp \
+  ../src/xercesc/validators/schema/SchemaSymbols.hpp \
+  ../src/xercesc/framework/psvi/XSSimpleTypeDefinition.hpp \
+  ../src/xercesc/framework/psvi/XSTypeDefinition.hpp \
+  ../src/xercesc/framework/psvi/XSObject.hpp \
+  ../src/xercesc/framework/psvi/XSConstants.hpp \
+  ../src/xercesc/framework/ValidationContext.hpp \
+  ../src/xercesc/util/NameIdPool.hpp ../src/xercesc/util/NameIdPool.c \
+  ../src/xercesc/framework/XMLAttDefList.hpp \
+  ../src/xercesc/framework/XMLEntityDecl.hpp \
+  ../src/xercesc/framework/XMLNotationDecl.hpp \
+  ../src/xercesc/dom/DOMLSResourceResolver.hpp \
+  ../src/xercesc/dom/DOMErrorHandler.hpp \
+  ../src/xercesc/dom/DOMImplementationList.hpp \
+  ../src/xercesc/dom/DOMImplementationRegistry.hpp \
+  ../src/xercesc/dom/DOMImplementationSource.hpp \
+  ../src/xercesc/dom/DOMLSInput.hpp ../src/xercesc/dom/DOMLSOutput.hpp \
+  ../src/xercesc/dom/DOMLocator.hpp \
+  ../src/xercesc/dom/DOMPSVITypeInfo.hpp \
+  ../src/xercesc/dom/DOMTypeInfo.hpp \
+  ../src/xercesc/dom/DOMUserDataHandler.hpp \
+  ../src/xercesc/dom/DOMLSSerializer.hpp \
+  ../src/xercesc/dom/DOMLSSerializerFilter.hpp \
+  ../src/xercesc/dom/DOMXPathNSResolver.hpp \
+  ../src/xercesc/dom/DOMXPathException.hpp \
+  ../src/xercesc/dom/DOMXPathExpression.hpp \
+  ../src/xercesc/dom/DOMXPathNamespace.hpp \
+  ../src/xercesc/framework/StdOutFormatTarget.hpp \
+  ../src/xercesc/framework/XMLFormatter.hpp \
+  ../src/xercesc/framework/LocalFileFormatTarget.hpp \
+  ../src/xercesc/parsers/XercesDOMParser.hpp \
+  ../src/xercesc/parsers/AbstractDOMParser.hpp \
+  ../src/xercesc/framework/XMLDocumentHandler.hpp \
+  ../src/xercesc/framework/XMLEntityHandler.hpp \
+  ../src/xercesc/util/SecurityManager.hpp \
+  ../src/xercesc/util/ValueStackOf.hpp \
+  ../src/xercesc/util/EmptyStackException.hpp \
+  ../src/xercesc/util/ValueStackOf.c \
+  ../src/xercesc/validators/DTD/DocTypeHandler.hpp \
+  ../src/xercesc/validators/DTD/DTDAttDef.hpp \
+  ../src/xercesc/validators/DTD/DTDElementDecl.hpp \
+  ../src/xercesc/framework/XMLContentModel.hpp \
+  ../src/xercesc/validators/DTD/DTDEntityDecl.hpp \
+  ../src/xercesc/framework/XMLBufferMgr.hpp \
+  ../src/xercesc/framework/psvi/PSVIHandler.hpp \
+  src/DOMPrint/DOMTreeErrorReporter.hpp \
+  ../src/xercesc/sax/ErrorHandler.hpp /usr/include/c++/4.2.1/iostream \
+  /usr/include/c++/4.2.1/ostream /usr/include/c++/4.2.1/ios \
+  /usr/include/c++/4.2.1/iosfwd /usr/include/c++/4.2.1/bits/c++locale.h \
+  /usr/include/c++/4.2.1/clocale /usr/include/locale.h \
+  /usr/include/_locale.h /usr/include/c++/4.2.1/cstring \
+  /usr/include/c++/4.2.1/cstdio /usr/include/stdio.h \
+  /usr/include/c++/4.2.1/cstdarg \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stdarg.h \
+  /usr/include/c++/4.2.1/bits/c++io.h /usr/include/c++/4.2.1/bits/gthr.h \
+  /usr/include/c++/4.2.1/bits/gthr-default.h /usr/include/pthread.h \
+  /usr/include/pthread_impl.h /usr/include/sched.h /usr/include/time.h \
+  /usr/include/_structs.h /usr/include/c++/4.2.1/cctype \
+  /usr/include/ctype.h /usr/include/runetype.h \
+  /usr/include/c++/4.2.1/bits/stringfwd.h \
+  /usr/include/c++/4.2.1/bits/postypes.h /usr/include/c++/4.2.1/cwchar \
+  /usr/include/c++/4.2.1/ctime /usr/include/wchar.h \
+  /usr/include/_wctype.h /usr/include/c++/4.2.1/bits/functexcept.h \
+  /usr/include/c++/4.2.1/exception_defines.h \
+  /usr/include/c++/4.2.1/bits/char_traits.h \
+  /usr/include/c++/4.2.1/bits/stl_algobase.h \
+  /usr/include/c++/4.2.1/climits /usr/include/c++/4.2.1/cstdlib \
+  /usr/include/c++/4.2.1/bits/stl_pair.h \
+  /usr/include/c++/4.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/4.2.1/ext/type_traits.h /usr/include/c++/4.2.1/utility \
+  /usr/include/c++/4.2.1/bits/stl_relops.h \
+  /usr/include/c++/4.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/4.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/4.2.1/bits/concept_check.h \
+  /usr/include/c++/4.2.1/bits/stl_iterator.h \
+  /usr/include/c++/4.2.1/debug/debug.h \
+  /usr/include/c++/4.2.1/bits/localefwd.h \
+  /usr/include/c++/4.2.1/bits/ios_base.h \
+  /usr/include/c++/4.2.1/ext/atomicity.h \
+  /usr/include/c++/4.2.1/bits/atomic_word.h \
+  /usr/include/c++/4.2.1/bits/locale_classes.h \
+  /usr/include/c++/4.2.1/string /usr/include/c++/4.2.1/memory \
+  /usr/include/c++/4.2.1/bits/allocator.h \
+  /usr/include/c++/4.2.1/bits/c++allocator.h \
+  /usr/include/c++/4.2.1/ext/new_allocator.h \
+  /usr/include/c++/4.2.1/bits/stl_construct.h \
+  /usr/include/c++/4.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/4.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/4.2.1/limits \
+  /usr/include/c++/4.2.1/bits/ostream_insert.h \
+  /usr/include/c++/4.2.1/bits/stl_function.h \
+  /usr/include/c++/4.2.1/bits/basic_string.h \
+  /usr/include/c++/4.2.1/algorithm /usr/include/c++/4.2.1/bits/stl_algo.h \
+  /usr/include/c++/4.2.1/bits/stl_heap.h \
+  /usr/include/c++/4.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/4.2.1/bits/basic_string.tcc \
+  /usr/include/c++/4.2.1/streambuf \
+  /usr/include/c++/4.2.1/bits/streambuf.tcc \
+  /usr/include/c++/4.2.1/bits/basic_ios.h \
+  /usr/include/c++/4.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/4.2.1/bits/locale_facets.h \
+  /usr/include/c++/4.2.1/cwctype /usr/include/wctype.h \
+  /usr/include/c++/4.2.1/bits/ctype_base.h \
+  /usr/include/c++/4.2.1/bits/ctype_inline.h \
+  /usr/include/c++/4.2.1/bits/codecvt.h \
+  /usr/include/c++/4.2.1/bits/time_members.h \
+  /usr/include/c++/4.2.1/bits/messages_members.h \
+  /usr/include/c++/4.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/4.2.1/bits/ostream.tcc /usr/include/c++/4.2.1/locale \
+  /usr/include/c++/4.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/4.2.1/typeinfo /usr/include/c++/4.2.1/istream \
+  /usr/include/c++/4.2.1/bits/istream.tcc src/DOMPrint/DOMPrintFilter.hpp \
+  src/DOMPrint/DOMPrintErrorHandler.hpp \
+  ../src/xercesc/util/OutOfMemoryException.hpp
+
+../src/xercesc/util/PlatformUtils.hpp:
+
+../src/xercesc/util/XercesDefs.hpp:
+
+../src/xercesc/util/Xerces_autoconf_config.hpp:
+
+/usr/include/inttypes.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/_symbol_aliasing.h:
+
+/usr/include/sys/_posix_availability.h:
+
+/usr/include/_types.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/i386/_types.h:
+
+/usr/include/stdint.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/appleapiopts.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/i386/types.h:
+
+/usr/include/i386/_types.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/i386/endian.h:
+
+/usr/include/sys/_endian.h:
+
+/usr/include/libkern/_OSByteOrder.h:
+
+/usr/include/libkern/i386/_OSByteOrder.h:
+
+/usr/include/sys/_structs.h:
+
+../src/xercesc/util/XercesVersion.hpp:
+
+../src/xercesc/util/XMLException.hpp:
+
+../src/xercesc/util/XMemory.hpp:
+
+/usr/include/stdlib.h:
+
+/usr/include/Availability.h:
+
+/usr/include/AvailabilityInternal.h:
+
+/usr/include/sys/wait.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/machine/signal.h:
+
+/usr/include/i386/signal.h:
+
+/usr/include/i386/_structs.h:
+
+/usr/include/machine/_structs.h:
+
+/usr/include/mach/i386/_structs.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/alloca.h:
+
+../src/xercesc/util/XMLExceptMsgs.hpp:
+
+../src/xercesc/dom/DOMError.hpp:
+
+../src/xercesc/util/XMLUni.hpp:
+
+../src/xercesc/framework/XMLErrorReporter.hpp:
+
+../src/xercesc/util/PanicHandler.hpp:
+
+../src/xercesc/util/XMLFileMgr.hpp:
+
+../src/xercesc/util/XMLMutexMgr.hpp:
+
+../src/xercesc/dom/DOM.hpp:
+
+../src/xercesc/dom/DOMAttr.hpp:
+
+../src/xercesc/dom/DOMNode.hpp:
+
+../src/xercesc/dom/DOMCDATASection.hpp:
+
+../src/xercesc/dom/DOMText.hpp:
+
+../src/xercesc/dom/DOMCharacterData.hpp:
+
+../src/xercesc/dom/DOMComment.hpp:
+
+../src/xercesc/dom/DOMDocument.hpp:
+
+../src/xercesc/dom/DOMDocumentRange.hpp:
+
+../src/xercesc/dom/DOMDocumentTraversal.hpp:
+
+../src/xercesc/dom/DOMNodeFilter.hpp:
+
+../src/xercesc/dom/DOMXPathEvaluator.hpp:
+
+../src/xercesc/dom/DOMXPathResult.hpp:
+
+../src/xercesc/dom/DOMDocumentFragment.hpp:
+
+../src/xercesc/dom/DOMDocumentType.hpp:
+
+../src/xercesc/dom/DOMElement.hpp:
+
+../src/xercesc/dom/DOMEntity.hpp:
+
+../src/xercesc/dom/DOMEntityReference.hpp:
+
+../src/xercesc/dom/DOMException.hpp:
+
+../src/xercesc/dom/DOMImplementation.hpp:
+
+../src/xercesc/dom/DOMImplementationLS.hpp:
+
+../src/xercesc/dom/DOMLSException.hpp:
+
+../src/xercesc/dom/DOMRangeException.hpp:
+
+../src/xercesc/dom/DOMNamedNodeMap.hpp:
+
+../src/xercesc/dom/DOMNodeList.hpp:
+
+../src/xercesc/dom/DOMNotation.hpp:
+
+../src/xercesc/dom/DOMProcessingInstruction.hpp:
+
+../src/xercesc/dom/DOMNodeIterator.hpp:
+
+../src/xercesc/dom/DOMRange.hpp:
+
+../src/xercesc/dom/DOMTreeWalker.hpp:
+
+../src/xercesc/dom/DOMLSParser.hpp:
+
+../src/xercesc/dom/DOMConfiguration.hpp:
+
+../src/xercesc/util/XMLString.hpp:
+
+../src/xercesc/util/BaseRefVectorOf.hpp:
+
+../src/xercesc/util/ArrayIndexOutOfBoundsException.hpp:
+
+../src/xercesc/util/XMLEnumerator.hpp:
+
+../src/xercesc/framework/MemoryManager.hpp:
+
+../src/xercesc/util/BaseRefVectorOf.c:
+
+../src/xercesc/framework/XMLBuffer.hpp:
+
+/usr/include/string.h:
+
+/usr/include/strings.h:
+
+/usr/include/assert.h:
+
+../src/xercesc/util/RefVectorOf.hpp:
+
+../src/xercesc/util/RefVectorOf.c:
+
+../src/xercesc/dom/DOMStringList.hpp:
+
+../src/xercesc/dom/DOMLSParserFilter.hpp:
+
+../src/xercesc/validators/common/Grammar.hpp:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h:
+
+/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h:
+
+/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/machine/limits.h:
+
+/usr/include/i386/limits.h:
+
+/usr/include/i386/_limits.h:
+
+/usr/include/sys/syslimits.h:
+
+../src/xercesc/framework/XMLElementDecl.hpp:
+
+../src/xercesc/framework/XMLAttr.hpp:
+
+../src/xercesc/util/QName.hpp:
+
+../src/xercesc/util/XMLUniDefs.hpp:
+
+../src/xercesc/internal/XSerializable.hpp:
+
+../src/xercesc/internal/XSerializeEngine.hpp:
+
+../src/xercesc/util/RefHashTableOf.hpp:
+
+../src/xercesc/util/Hashers.hpp:
+
+../src/xercesc/util/IllegalArgumentException.hpp:
+
+../src/xercesc/util/NoSuchElementException.hpp:
+
+../src/xercesc/util/RuntimeException.hpp:
+
+../src/xercesc/util/RefHashTableOf.c:
+
+../src/xercesc/util/Janitor.hpp:
+
+../src/xercesc/util/Janitor.c:
+
+../src/xercesc/util/NullPointerException.hpp:
+
+/usr/include/c++/4.2.1/new:
+
+/usr/include/c++/4.2.1/cstddef:
+
+/usr/include/c++/4.2.1/bits/c++config.h:
+
+/usr/include/c++/4.2.1/bits/os_defines.h:
+
+/usr/include/unistd.h:
+
+/usr/include/sys/unistd.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/_select.h:
+
+/usr/include/c++/4.2.1/bits/cpu_defines.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h:
+
+/usr/include/c++/4.2.1/exception:
+
+../src/xercesc/util/ValueVectorOf.hpp:
+
+../src/xercesc/util/ValueVectorOf.c:
+
+../src/xercesc/internal/XSerializationException.hpp:
+
+../src/xercesc/internal/XProtoType.hpp:
+
+../src/xercesc/framework/XMLAttDef.hpp:
+
+../src/xercesc/validators/datatype/DatatypeValidator.hpp:
+
+../src/xercesc/util/KVStringPair.hpp:
+
+../src/xercesc/util/regx/RegularExpression.hpp:
+
+../src/xercesc/util/RefArrayVectorOf.hpp:
+
+../src/xercesc/util/RefArrayVectorOf.c:
+
+../src/xercesc/util/regx/Op.hpp:
+
+../src/xercesc/util/regx/TokenFactory.hpp:
+
+../src/xercesc/util/regx/Token.hpp:
+
+../src/xercesc/util/Mutexes.hpp:
+
+../src/xercesc/util/regx/BMPattern.hpp:
+
+../src/xercesc/util/regx/OpFactory.hpp:
+
+../src/xercesc/util/regx/RegxUtil.hpp:
+
+../src/xercesc/validators/schema/SchemaSymbols.hpp:
+
+../src/xercesc/framework/psvi/XSSimpleTypeDefinition.hpp:
+
+../src/xercesc/framework/psvi/XSTypeDefinition.hpp:
+
+../src/xercesc/framework/psvi/XSObject.hpp:
+
+../src/xercesc/framework/psvi/XSConstants.hpp:
+
+../src/xercesc/framework/ValidationContext.hpp:
+
+../src/xercesc/util/NameIdPool.hpp:
+
+../src/xercesc/util/NameIdPool.c:
+
+../src/xercesc/framework/XMLAttDefList.hpp:
+
+../src/xercesc/framework/XMLEntityDecl.hpp:
+
+../src/xercesc/framework/XMLNotationDecl.hpp:
+
+../src/xercesc/dom/DOMLSResourceResolver.hpp:
+
+../src/xercesc/dom/DOMErrorHandler.hpp:
+
+../src/xercesc/dom/DOMImplementationList.hpp:
+
+../src/xercesc/dom/DOMImplementationRegistry.hpp:
+
+../src/xercesc/dom/DOMImplementationSource.hpp:
+
+../src/xercesc/dom/DOMLSInput.hpp:
+
+../src/xercesc/dom/DOMLSOutput.hpp:
+
+../src/xercesc/dom/DOMLocator.hpp:
+
+../src/xercesc/dom/DOMPSVITypeInfo.hpp:
+
+../src/xercesc/dom/DOMTypeInfo.hpp:
+
+../src/xercesc/dom/DOMUserDataHandler.hpp:
+
+../src/xercesc/dom/DOMLSSerializer.hpp:
+
+../src/xercesc/dom/DOMLSSerializerFilter.hpp:
+
+../src/xercesc/dom/DOMXPathNSResolver.hpp:
+
+../src/xercesc/dom/DOMXPathException.hpp:
+
+../src/xercesc/dom/DOMXPathExpression.hpp:
+
+../src/xercesc/dom/DOMXPathNamespace.hpp:
+
+../src/xercesc/framework/StdOutFormatTarget.hpp:
+
+../src/xercesc/framework/XMLFormatter.hpp:
+
+../src/xercesc/framework/LocalFileFormatTarget.hpp:
+
+../src/xercesc/parsers/XercesDOMParser.hpp:
+
+../src/xercesc/parsers/AbstractDOMParser.hpp:
+
+../src/xercesc/framework/XMLDocumentHandler.hpp:
+
+../src/xercesc/framework/XMLEntityHandler.hpp:
+
+../src/xercesc/util/SecurityManager.hpp:
+
+../src/xercesc/util/ValueStackOf.hpp:
+
+../src/xercesc/util/EmptyStackException.hpp:
+
+../src/xercesc/util/ValueStackOf.c:
+
+../src/xercesc/validators/DTD/DocTypeHandler.hpp:
+
+../src/xercesc/validators/DTD/DTDAttDef.hpp:
+
+../src/xercesc/validators/DTD/DTDElementDecl.hpp:
+
+../src/xercesc/framework/XMLContentModel.hpp:
+
+../src/xercesc/validators/DTD/DTDEntityDecl.hpp:
+
+../src/xercesc/framework/XMLBufferMgr.hpp:
+
+../src/xercesc/framework/psvi/PSVIHandler.hpp:
+
+src/DOMPrint/DOMTreeErrorReporter.hpp:
+
+../src/xercesc/sax/ErrorHandler.hpp:
+
+/usr/include/c++/4.2.1/iostream:
+
+/usr/include/c++/4.2.1/ostream:
+
+/usr/include/c++/4.2.1/ios:
+
+/usr/include/c++/4.2.1/iosfwd:
+
+/usr/include/c++/4.2.1/bits/c++locale.h:
+
+/usr/include/c++/4.2.1/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/_locale.h:
+
+/usr/include/c++/4.2.1/cstring:
+
+/usr/include/c++/4.2.1/cstdio:
+
+/usr/include/stdio.h:
+
+/usr/include/c++/4.2.1/cstdarg:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stdarg.h:
+
+/usr/include/c++/4.2.1/bits/c++io.h:
+
+/usr/include/c++/4.2.1/bits/gthr.h:
+
+/usr/include/c++/4.2.1/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/pthread_impl.h:
+
+/usr/include/sched.h:
+
+/usr/include/time.h:
+
+/usr/include/_structs.h:
+
+/usr/include/c++/4.2.1/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/runetype.h:
+
+/usr/include/c++/4.2.1/bits/stringfwd.h:
+
+/usr/include/c++/4.2.1/bits/postypes.h:
+
+/usr/include/c++/4.2.1/cwchar:
+
+/usr/include/c++/4.2.1/ctime:
+
+/usr/include/wchar.h:
+
+/usr/include/_wctype.h:
+
+/usr/include/c++/4.2.1/bits/functexcept.h:
+
+/usr/include/c++/4.2.1/exception_defines.h:
+
+/usr/include/c++/4.2.1/bits/char_traits.h:
+
+/usr/include/c++/4.2.1/bits/stl_algobase.h:
+
+/usr/include/c++/4.2.1/climits:
+
+/usr/include/c++/4.2.1/cstdlib:
+
+/usr/include/c++/4.2.1/bits/stl_pair.h:
+
+/usr/include/c++/4.2.1/bits/cpp_type_traits.h:
+
+/usr/include/c++/4.2.1/ext/type_traits.h:
+
+/usr/include/c++/4.2.1/utility:
+
+/usr/include/c++/4.2.1/bits/stl_relops.h:
+
+/usr/include/c++/4.2.1/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/4.2.1/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/4.2.1/bits/concept_check.h:
+
+/usr/include/c++/4.2.1/bits/stl_iterator.h:
+
+/usr/include/c++/4.2.1/debug/debug.h:
+
+/usr/include/c++/4.2.1/bits/localefwd.h:
+
+/usr/include/c++/4.2.1/bits/ios_base.h:
+
+/usr/include/c++/4.2.1/ext/atomicity.h:
+
+/usr/include/c++/4.2.1/bits/atomic_word.h:
+
+/usr/include/c++/4.2.1/bits/locale_classes.h:
+
+/usr/include/c++/4.2.1/string:
+
+/usr/include/c++/4.2.1/memory:
+
+/usr/include/c++/4.2.1/bits/allocator.h:
+
+/usr/include/c++/4.2.1/bits/c++allocator.h:
+
+/usr/include/c++/4.2.1/ext/new_allocator.h:
+
+/usr/include/c++/4.2.1/bits/stl_construct.h:
+
+/usr/include/c++/4.2.1/bits/stl_uninitialized.h:
+
+/usr/include/c++/4.2.1/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/4.2.1/limits:
+
+/usr/include/c++/4.2.1/bits/ostream_insert.h:
+
+/usr/include/c++/4.2.1/bits/stl_function.h:
+
+/usr/include/c++/4.2.1/bits/basic_string.h:
+
+/usr/include/c++/4.2.1/algorithm:
+
+/usr/include/c++/4.2.1/bits/stl_algo.h:
+
+/usr/include/c++/4.2.1/bits/stl_heap.h:
+
+/usr/include/c++/4.2.1/bits/stl_tempbuf.h:
+
+/usr/include/c++/4.2.1/bits/basic_string.tcc:
+
+/usr/include/c++/4.2.1/streambuf:
+
+/usr/include/c++/4.2.1/bits/streambuf.tcc:
+
+/usr/include/c++/4.2.1/bits/basic_ios.h:
+
+/usr/include/c++/4.2.1/bits/streambuf_iterator.h:
+
+/usr/include/c++/4.2.1/bits/locale_facets.h:
+
+/usr/include/c++/4.2.1/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/include/c++/4.2.1/bits/ctype_base.h:
+
+/usr/include/c++/4.2.1/bits/ctype_inline.h:
+
+/usr/include/c++/4.2.1/bits/codecvt.h:
+
+/usr/include/c++/4.2.1/bits/time_members.h:
+
+/usr/include/c++/4.2.1/bits/messages_members.h:
+
+/usr/include/c++/4.2.1/bits/basic_ios.tcc:
+
+/usr/include/c++/4.2.1/bits/ostream.tcc:
+
+/usr/include/c++/4.2.1/locale:
+
+/usr/include/c++/4.2.1/bits/locale_facets.tcc:
+
+/usr/include/c++/4.2.1/typeinfo:
+
+/usr/include/c++/4.2.1/istream:
+
+/usr/include/c++/4.2.1/bits/istream.tcc:
+
+src/DOMPrint/DOMPrintFilter.hpp:
+
+src/DOMPrint/DOMPrintErrorHandler.hpp:
+
+../src/xercesc/util/OutOfMemoryException.hpp:

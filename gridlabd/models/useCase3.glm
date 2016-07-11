@@ -1,0 +1,148 @@
+// $id$
+//	Copyright (C) 2008 Battelle Memorial Institute
+
+// 4 Node Feeder: Balanced step-down grY-grY
+
+/////////////////////////////////////////////
+// BEGIN
+/////////////////////////////////////////////
+#set profiler=1
+
+clock {
+	timezone EST+5EDT;
+	starttime '2000-01-01 0:00:00';
+	stoptime '2000-01-01 0:00:20';
+}
+
+module powerflow{
+	solver_method NR;
+}
+
+module tape;
+
+object overhead_line_conductor:100 {
+	geometric_mean_radius 0.0240;
+	resistance 0.300;
+}
+
+object overhead_line_conductor:101 {
+	geometric_mean_radius 0.00814;
+	resistance 0.592;
+}
+
+// circuit breaker
+object overhead_line_conductor:102 {
+	name circuitBreaker;
+	geometric_mean_radius 0.0242;
+	//resistance 1000000000000;
+	resistance 0.302;
+}
+
+object line_spacing:200 {
+	distance_AN 5.656854;
+}
+
+object line_configuration:300 {
+	conductor_A overhead_line_conductor:100;
+	conductor_N overhead_line_conductor:101;
+	spacing line_spacing:200;
+}
+
+object line_configuration:301 {
+	name circuitBreakerConfiguration;
+	conductor_A overhead_line_conductor:102;
+	conductor_N overhead_line_conductor:102;
+	spacing line_spacing:200;
+}
+
+object transformer_configuration:400 {
+	connect_type 1;
+	power_rating 2000;
+	powerA_rating 2000;
+	primary_voltage 2000;
+	secondary_voltage 200;
+	resistance 0.01;
+	reactance 0.06;
+}
+
+object node {
+	name node1;
+	phases "AN";
+	bustype SWING;
+	voltage_A 2400+0j;
+	nominal_voltage 2400;
+}
+
+
+object node {
+	name node2;
+	phases "AN";
+	voltage_A +240+0.000j;	
+	nominal_voltage 240;
+}
+
+object transformer:12 {
+	phases "AN";
+	from node1;
+	to node2;
+	configuration transformer_configuration:400;
+}
+
+
+
+object switch:23 {
+	phases "AN";
+	from node2;
+	to load3;
+	name circuitBreakerLine;
+	status CLOSED;
+
+	object recorder {
+		name recorderCurrent;
+		property "current_in_A.real,current_in_A.imag"; // property of load
+		file "models/useCaseWithAttack3.csv";
+		interval "1s";
+	};
+}
+
+object load {
+	name load3;
+	phases "AN";
+	voltage_A +240+0j;
+	//constant_power_A +1800000.000+871779.789j;
+	constant_power_A +240000+120000j;
+
+		 // Devendra Shelar introducing player
+	 object player {
+	 	name cpPlayer;
+	 	property constant_power_A; // property of load
+	 	file "models/useCase3Player.csv";
+	 	loop 10;
+	 };
+	nominal_voltage 240;
+}
+
+object overhead_line:24 {
+	phases "AN";
+	from node2;
+	to load4;
+	name circuitBreakerLinePV;
+	length 250;
+	configuration line_configuration:301;
+}
+
+object load {
+	name load4;
+	phases "AN";
+	voltage_A +240+0j;
+	//constant_power_A +1800000.000+871779.789j;
+	//constant_power_A -100.000-45j;
+	//constant_power_A -00.000-00j;
+	constant_power_A +240000+120000j;
+
+	nominal_voltage 240;
+}
+
+///////////////////////////////
+// END
+///////////////////////////////

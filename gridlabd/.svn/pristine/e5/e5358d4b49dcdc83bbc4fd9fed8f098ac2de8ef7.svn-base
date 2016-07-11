@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|x64">
+      <Configuration>Template</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DF17498A-83B3-46CE-95EA-C7515C0310A0}</ProjectGuid>
+    <RootNamespace>superLU_MT</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <PostBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</PostBuildEventUseInBuild>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <PostBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</PostBuildEventUseInBuild>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <CustomBuildStep>
+      <Command>
+      </Command>
+      <Outputs>%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\pthreads;..\third_party\superLU_MT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_PTHREAD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <CustomBuildStep>
+      <Command>
+      </Command>
+      <Outputs>%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\pthreads;..\third_party\superLU_MT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_PTHREAD;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <CustomBuildStep>
+      <Command>
+      </Command>
+      <Outputs>%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\pthreads;..\third_party\superLU_MT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_PTHREAD;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <CustomBuildStep>
+      <Command>
+      </Command>
+      <Outputs>%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\pthreads;..\third_party\superLU_MT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_PTHREAD;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\third_party\superLU_MT\await.c" />
+    <ClCompile Include="..\third_party\superLU_MT\cgscon.c" />
+    <ClCompile Include="..\third_party\superLU_MT\cgsequ.c" />
+    <ClCompile Include="..\third_party\superLU_MT\cgsrfs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\cgstrs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\clacon.c" />
+    <ClCompile Include="..\third_party\superLU_MT\clangs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\claqgs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\cmatgen.c" />
+    <ClCompile Include="..\third_party\superLU_MT\cmyblas2.c" />
+    <ClCompile Include="..\third_party\superLU_MT\colamd.c" />
+    <ClCompile Include="..\third_party\superLU_MT\cpivotgrowth.c" />
+    <ClCompile Include="..\third_party\superLU_MT\creadhb.c" />
+    <ClCompile Include="..\third_party\superLU_MT\creadmt.c" />
+    <ClCompile Include="..\third_party\superLU_MT\csp_blas2.c" />
+    <ClCompile Include="..\third_party\superLU_MT\csp_blas3.c" />
+    <ClCompile Include="..\third_party\superLU_MT\dclock.c" />
+    <ClCompile Include="..\third_party\superLU_MT\dcomplex.c" />
+    <ClCompile Include="..\third_party\superLU_MT\dgscon.c" />
+    <ClCompile Include="..\third_party\superLU_MT\dgsequ.c" />
+    <ClCompile Include="..\third_party\superLU_MT\dgsrfs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\dgstrs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\dlacon.c" />
+    <ClCompile Include="..\third_party\superLU_MT\dlamch.c" />
+    <ClCompile Include="..\third_party\superLU_MT\dlangs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\dlaqgs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\dmatgen.c" />
+    <ClCompile Include="..\third_party\superLU_MT\dmyblas2.c" />
+    <ClCompile Include="..\third_party\superLU_MT\dpivotgrowth.c" />
+    <ClCompile Include="..\third_party\superLU_MT\dreadhb.c" />
+    <ClCompile Include="..\third_party\superLU_MT\dreadmt.c" />
+    <ClCompile Include="..\third_party\superLU_MT\dsp_blas2.c" />
+    <ClCompile Include="..\third_party\superLU_MT\dsp_blas3.c" />
+    <ClCompile Include="..\third_party\superLU_MT\dzsum1.c" />
+    <ClCompile Include="..\third_party\superLU_MT\get_perm_c.c" />
+    <ClCompile Include="..\third_party\superLU_MT\heap_relax_snode.c" />
+    <ClCompile Include="..\third_party\superLU_MT\icmax1.c" />
+    <ClCompile Include="..\third_party\superLU_MT\izmax1.c" />
+    <ClCompile Include="..\third_party\superLU_MT\lsame.c" />
+    <ClCompile Include="..\third_party\superLU_MT\memory_leak.c" />
+    <ClCompile Include="..\third_party\superLU_MT\mmd.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgssv.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgssvx.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_bmod1D.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_bmod1D_mv2.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_bmod2D.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_bmod2D_mv2.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_column_bmod.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_column_dfs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_copy_to_ucol.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_factor_snode.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_init.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_mark_busy_descends.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_panel_bmod.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_panel_dfs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_pivotL.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_pruneL.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_relax_snode.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_scheduler.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_snode_bmod.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_snode_dfs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_thread.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_thread_finalize.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcgstrf_thread_init.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcmemory.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pcutil.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgssv.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgssvx.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_bmod1D.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_bmod1D_mv2.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_bmod2D.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_bmod2D_mv2.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_column_bmod.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_column_dfs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_copy_to_ucol.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_factor_snode.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_init.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_mark_busy_descends.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_panel_bmod.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_panel_dfs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_pivotL.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_pruneL.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_relax_snode.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_scheduler.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_snode_bmod.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_snode_dfs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_thread.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_thread_finalize.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdgstrf_thread_init.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdmemory.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pdutil.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pmemory.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgssv.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgssvx.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_bmod1D.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_bmod1D_mv2.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_bmod2D.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_bmod2D_mv2.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_column_bmod.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_column_dfs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_copy_to_ucol.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_factor_snode.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_init.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_mark_busy_descends.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_panel_bmod.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_panel_dfs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_pivotL.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_pruneL.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_relax_snode.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_scheduler.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_snode_bmod.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_snode_dfs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_thread.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_thread_finalize.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psgstrf_thread_init.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psmemory.c" />
+    <ClCompile Include="..\third_party\superLU_MT\psutil.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pxgstrf_finalize.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pxgstrf_mark_busy_descends.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pxgstrf_pruneL.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pxgstrf_relax_snode.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pxgstrf_scheduler.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pxgstrf_super_bnd_dfs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pxgstrf_synch.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgssv.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgssvx.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_bmod1D.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_bmod1D_mv2.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_bmod2D.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_bmod2D_mv2.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_column_bmod.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_column_dfs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_copy_to_ucol.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_factor_snode.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_init.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_mark_busy_descends.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_panel_bmod.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_panel_dfs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_pivotL.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_pruneL.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_relax_snode.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_scheduler.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_snode_bmod.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_snode_dfs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_thread.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_thread_finalize.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzgstrf_thread_init.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzmemory.c" />
+    <ClCompile Include="..\third_party\superLU_MT\pzutil.c" />
+    <ClCompile Include="..\third_party\superLU_MT\qrnzcnt.c" />
+    <ClCompile Include="..\third_party\superLU_MT\scomplex.c" />
+    <ClCompile Include="..\third_party\superLU_MT\scsum1.c" />
+    <ClCompile Include="..\third_party\superLU_MT\sgscon.c" />
+    <ClCompile Include="..\third_party\superLU_MT\sgsequ.c" />
+    <ClCompile Include="..\third_party\superLU_MT\sgsrfs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\sgstrs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\slacon.c" />
+    <ClCompile Include="..\third_party\superLU_MT\slamch.c" />
+    <ClCompile Include="..\third_party\superLU_MT\slangs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\slaqgs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\smatgen.c" />
+    <ClCompile Include="..\third_party\superLU_MT\smyblas2.c" />
+    <ClCompile Include="..\third_party\superLU_MT\sp_coletree.c" />
+    <ClCompile Include="..\third_party\superLU_MT\sp_colorder.c" />
+    <ClCompile Include="..\third_party\superLU_MT\sp_ienv.c" />
+    <ClCompile Include="..\third_party\superLU_MT\spivotgrowth.c" />
+    <ClCompile Include="..\third_party\superLU_MT\sreadhb.c" />
+    <ClCompile Include="..\third_party\superLU_MT\sreadmt.c" />
+    <ClCompile Include="..\third_party\superLU_MT\ssp_blas2.c" />
+    <ClCompile Include="..\third_party\superLU_MT\ssp_blas3.c" />
+    <ClCompile Include="..\third_party\superLU_MT\superlu_timer.c" />
+    <ClCompile Include="..\third_party\superLU_MT\util.c" />
+    <ClCompile Include="..\third_party\superLU_MT\xerbla.c" />
+    <ClCompile Include="..\third_party\superLU_MT\zgscon.c" />
+    <ClCompile Include="..\third_party\superLU_MT\zgsequ.c" />
+    <ClCompile Include="..\third_party\superLU_MT\zgsrfs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\zgstrs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\zlacon.c" />
+    <ClCompile Include="..\third_party\superLU_MT\zlangs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\zlaqgs.c" />
+    <ClCompile Include="..\third_party\superLU_MT\zmatgen.c" />
+    <ClCompile Include="..\third_party\superLU_MT\zmyblas2.c" />
+    <ClCompile Include="..\third_party\superLU_MT\zpivotgrowth.c" />
+    <ClCompile Include="..\third_party\superLU_MT\zreadhb.c" />
+    <ClCompile Include="..\third_party\superLU_MT\zreadmt.c" />
+    <ClCompile Include="..\third_party\superLU_MT\zsp_blas2.c" />
+    <ClCompile Include="..\third_party\superLU_MT\zsp_blas3.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\third_party\superLU_MT\colamd.h" />
+    <ClInclude Include="..\third_party\superLU_MT\pcsp_defs.h" />
+    <ClInclude Include="..\third_party\superLU_MT\pdsp_defs.h" />
+    <ClInclude Include="..\third_party\superLU_MT\pssp_defs.h" />
+    <ClInclude Include="..\third_party\superLU_MT\pxgstrf_synch.h" />
+    <ClInclude Include="..\third_party\superLU_MT\pzsp_defs.h" />
+    <ClInclude Include="..\third_party\superLU_MT\slu_dcomplex.h" />
+    <ClInclude Include="..\third_party\superLU_MT\slu_mt_Cnames.h" />
+    <ClInclude Include="..\third_party\superLU_MT\slu_mt_machines.h" />
+    <ClInclude Include="..\third_party\superLU_MT\slu_mt_util.h" />
+    <ClInclude Include="..\third_party\superLU_MT\slu_scomplex.h" />
+    <ClInclude Include="..\third_party\superLU_MT\supermatrix.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="CBLAS.vcxproj">
+      <Project>{8bfab682-b7fd-4422-ab71-3154df337aa2}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

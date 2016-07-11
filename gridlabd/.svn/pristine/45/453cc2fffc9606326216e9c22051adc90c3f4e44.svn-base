@@ -1,0 +1,132 @@
+//This file tests the operation of a cooling controller 
+//in ramp mode in an inelastic market with a matching period
+//Since the averages and standard deviations in the controller
+//are not published properties, the only way to check if these
+//values are correct is to check whether the calculated bidding
+//prices are correct (this calculation uses these values)
+
+#set suppress_repeat_messages=1;
+
+#define stylesheet=http://gridlab-d.svn.sourceforge.net/viewvc/gridlab-d/trunk/core/gridlabd-2_0
+
+module market;
+module tape;
+module assert;
+module climate;
+module powerflow;
+module residential {
+	implicit_enduses NONE;
+}
+
+clock {
+	timezone PST+8PDT;
+	starttime '2001-06-25 14:00:00';
+	stoptime '2001-06-25 16:00:00';
+}
+
+schedule fixed_prices {
+	0-14 14 * * * 100;
+	15-29 14 * * * 10;
+	30-44 14 * * * 25;
+	45-59 14 * * * 112;
+	0-14 15 * * * 49.5;
+	15-29 15 * * * 49.8;
+	30-44 15 * * * 50.2;
+	45-59 15 * * * 77;
+	* 16 * * * 82;
+}
+
+schedule controller_bids {
+	0-14 14 * * * 100;
+	15-29 14 * * * 55;
+	30-44 14 * * * 19.2619;
+	45-59 14 * * * 115.4469;
+	0-14 15 * * * 100.0263;
+	15-29 15 * * * 0;
+	30-44 15 * * * 50.23522;
+	45-59 15 * * * 76.45274;
+	* 16 * * * 82.1669;
+}
+
+schedule clearing_quantities {
+	0-14 14 * * * 0;
+	15-29 14 * * * 0.0043699;
+	30-44 14 * * * 0.0043699;
+	45-59 14 * * * 0;
+	0-14 15 * * * 0.0043699;
+	15-29 15 * * * 0.0043699;
+	30-44 15 * * * 0;
+	45-59 15 * * * 0;
+	* 16 * * * 0;
+}
+
+schedule cooling_setpoints {
+	0-14 14 * * * 70;
+	15-29 14 * * * 70;
+	30-44 14 * * * 72.5;
+	45-59 14 * * * 72.5;
+	0-14 15 * * * 70;
+	15-29 15 * * * 72.5;
+	30-44 15 * * * 72.5;
+	45-59 15 * * * 72.5;
+	* 16 * * * 72.5;
+}
+
+
+object climate {
+	name "Yakima WA";
+	tmyfile "WA-Yakima.tmy2";
+}
+
+class auction {
+	double current_price_mean_30min;
+	double current_price_stdev_30min;
+}
+
+object auction {
+	name Market_1;
+	unit MW;
+	period 900;
+	verbose TRUE;
+	special_mode BUYERS_ONLY;
+	fixed_price fixed_prices*1;
+	warmup 0;
+	init_price 100;
+	init_stdev 0;
+}
+
+object triplex_meter {
+	phases AS;
+	nominal_voltage 120;
+	object house {
+		name house1;
+		weather "Yakima WA";
+		cooling_setpoint 70;
+		air_temperature 72;
+		object controller {
+			name cool_control;			
+			market Market_1;
+			bid_mode ON;			
+			period 900;
+			average_target current_price_mean_30min;
+			standard_deviation_target current_price_stdev_30min;		
+			control_mode RAMP;
+			target air_temperature;
+			setpoint cooling_setpoint;
+			demand cooling_demand;
+			total total_load;
+			load hvac_load;
+			//slider_setting 0; //set to 0 or ramps will be overwritten
+			ramp_low 2;
+			ramp_high 2;
+			range_low 0;
+			range_high 5;
+			 object multi_recorder {
+				 property bid_price,bid_quantity,house1:power_state,house1:cooling_demand,house1:cooling_setpoint,house1:air_temperature,house1:system_mode,house1:hvac_load,house1:outdoor_temperature;
+				 file "controller_and_house_behavior.csv";
+				 interval 90;
+				 limit 4320;
+			 };
+		};
+	};
+}

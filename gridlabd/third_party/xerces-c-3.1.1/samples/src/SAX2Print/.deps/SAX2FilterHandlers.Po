@@ -1,0 +1,363 @@
+src/SAX2Print/SAX2FilterHandlers.o src/SAX2Print/SAX2FilterHandlers.o:  \
+ src/SAX2Print/SAX2FilterHandlers.cpp \
+  src/SAX2Print/SAX2FilterHandlers.hpp \
+  ../src/xercesc/parsers/SAX2XMLFilterImpl.hpp \
+  ../src/xercesc/sax2/SAX2XMLFilter.hpp \
+  ../src/xercesc/sax2/SAX2XMLReader.hpp \
+  ../src/xercesc/util/XercesDefs.hpp \
+  ../src/xercesc/util/Xerces_autoconf_config.hpp /usr/include/inttypes.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_symbol_aliasing.h \
+  /usr/include/sys/_posix_availability.h /usr/include/_types.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/i386/_types.h /usr/include/stdint.h \
+  /usr/include/sys/types.h /usr/include/sys/appleapiopts.h \
+  /usr/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/i386/_types.h /usr/include/machine/endian.h \
+  /usr/include/i386/endian.h /usr/include/sys/_endian.h \
+  /usr/include/libkern/_OSByteOrder.h \
+  /usr/include/libkern/i386/_OSByteOrder.h /usr/include/sys/_structs.h \
+  ../src/xercesc/util/XercesVersion.hpp \
+  ../src/xercesc/util/XMLUniDefs.hpp \
+  ../src/xercesc/framework/XMLValidator.hpp \
+  ../src/xercesc/framework/XMLAttr.hpp \
+  ../src/xercesc/util/PlatformUtils.hpp \
+  ../src/xercesc/util/XMLException.hpp ../src/xercesc/util/XMemory.hpp \
+  /usr/include/stdlib.h /usr/include/Availability.h \
+  /usr/include/AvailabilityInternal.h /usr/include/sys/wait.h \
+  /usr/include/sys/signal.h /usr/include/machine/signal.h \
+  /usr/include/i386/signal.h /usr/include/i386/_structs.h \
+  /usr/include/machine/_structs.h /usr/include/mach/i386/_structs.h \
+  /usr/include/sys/resource.h /usr/include/alloca.h \
+  ../src/xercesc/util/XMLExceptMsgs.hpp ../src/xercesc/dom/DOMError.hpp \
+  ../src/xercesc/util/XMLUni.hpp \
+  ../src/xercesc/framework/XMLErrorReporter.hpp \
+  ../src/xercesc/util/PanicHandler.hpp ../src/xercesc/util/XMLFileMgr.hpp \
+  ../src/xercesc/util/XMLMutexMgr.hpp ../src/xercesc/util/QName.hpp \
+  ../src/xercesc/util/XMLString.hpp \
+  ../src/xercesc/util/BaseRefVectorOf.hpp \
+  ../src/xercesc/util/ArrayIndexOutOfBoundsException.hpp \
+  ../src/xercesc/util/XMLEnumerator.hpp \
+  ../src/xercesc/framework/MemoryManager.hpp \
+  ../src/xercesc/util/BaseRefVectorOf.c \
+  ../src/xercesc/framework/XMLBuffer.hpp /usr/include/string.h \
+  /usr/include/strings.h /usr/include/assert.h \
+  ../src/xercesc/internal/XSerializable.hpp \
+  ../src/xercesc/internal/XSerializeEngine.hpp \
+  ../src/xercesc/util/RefHashTableOf.hpp ../src/xercesc/util/Hashers.hpp \
+  ../src/xercesc/util/IllegalArgumentException.hpp \
+  ../src/xercesc/util/NoSuchElementException.hpp \
+  ../src/xercesc/util/RuntimeException.hpp \
+  ../src/xercesc/util/RefHashTableOf.c ../src/xercesc/util/Janitor.hpp \
+  ../src/xercesc/util/Janitor.c \
+  ../src/xercesc/util/NullPointerException.hpp /usr/include/c++/4.2.1/new \
+  /usr/include/c++/4.2.1/cstddef /usr/include/c++/4.2.1/bits/c++config.h \
+  /usr/include/c++/4.2.1/bits/os_defines.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/sys/select.h \
+  /usr/include/sys/_select.h /usr/include/c++/4.2.1/bits/cpu_defines.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h \
+  /usr/include/c++/4.2.1/exception ../src/xercesc/util/ValueVectorOf.hpp \
+  ../src/xercesc/util/ValueVectorOf.c \
+  ../src/xercesc/internal/XSerializationException.hpp \
+  ../src/xercesc/internal/XProtoType.hpp \
+  ../src/xercesc/framework/XMLAttDef.hpp \
+  ../src/xercesc/validators/datatype/DatatypeValidator.hpp \
+  ../src/xercesc/util/KVStringPair.hpp \
+  ../src/xercesc/util/regx/RegularExpression.hpp \
+  ../src/xercesc/util/RefArrayVectorOf.hpp \
+  ../src/xercesc/util/RefArrayVectorOf.c ../src/xercesc/util/regx/Op.hpp \
+  ../src/xercesc/util/RefVectorOf.hpp ../src/xercesc/util/RefVectorOf.c \
+  ../src/xercesc/util/regx/TokenFactory.hpp \
+  ../src/xercesc/util/regx/Token.hpp ../src/xercesc/util/Mutexes.hpp \
+  ../src/xercesc/util/regx/BMPattern.hpp \
+  ../src/xercesc/util/regx/OpFactory.hpp \
+  ../src/xercesc/util/regx/RegxUtil.hpp \
+  ../src/xercesc/validators/schema/SchemaSymbols.hpp \
+  ../src/xercesc/framework/psvi/XSSimpleTypeDefinition.hpp \
+  ../src/xercesc/framework/psvi/XSTypeDefinition.hpp \
+  ../src/xercesc/framework/psvi/XSObject.hpp \
+  ../src/xercesc/framework/psvi/XSConstants.hpp \
+  ../src/xercesc/framework/ValidationContext.hpp \
+  ../src/xercesc/util/NameIdPool.hpp ../src/xercesc/util/NameIdPool.c \
+  ../src/xercesc/framework/XMLValidityCodes.hpp \
+  ../src/xercesc/framework/XMLPScanToken.hpp \
+  ../src/xercesc/validators/common/Grammar.hpp \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h \
+  /Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h \
+  /Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/i386/_limits.h \
+  /usr/include/sys/syslimits.h \
+  ../src/xercesc/framework/XMLElementDecl.hpp \
+  ../src/xercesc/framework/XMLAttDefList.hpp \
+  ../src/xercesc/framework/XMLEntityDecl.hpp \
+  ../src/xercesc/framework/XMLNotationDecl.hpp \
+  ../src/xercesc/sax/EntityResolver.hpp ../src/xercesc/sax/DTDHandler.hpp \
+  ../src/xercesc/sax2/ContentHandler.hpp \
+  ../src/xercesc/sax/ErrorHandler.hpp ../src/xercesc/sax2/Attributes.hpp
+
+src/SAX2Print/SAX2FilterHandlers.hpp:
+
+../src/xercesc/parsers/SAX2XMLFilterImpl.hpp:
+
+../src/xercesc/sax2/SAX2XMLFilter.hpp:
+
+../src/xercesc/sax2/SAX2XMLReader.hpp:
+
+../src/xercesc/util/XercesDefs.hpp:
+
+../src/xercesc/util/Xerces_autoconf_config.hpp:
+
+/usr/include/inttypes.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/_symbol_aliasing.h:
+
+/usr/include/sys/_posix_availability.h:
+
+/usr/include/_types.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/i386/_types.h:
+
+/usr/include/stdint.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/appleapiopts.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/i386/types.h:
+
+/usr/include/i386/_types.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/i386/endian.h:
+
+/usr/include/sys/_endian.h:
+
+/usr/include/libkern/_OSByteOrder.h:
+
+/usr/include/libkern/i386/_OSByteOrder.h:
+
+/usr/include/sys/_structs.h:
+
+../src/xercesc/util/XercesVersion.hpp:
+
+../src/xercesc/util/XMLUniDefs.hpp:
+
+../src/xercesc/framework/XMLValidator.hpp:
+
+../src/xercesc/framework/XMLAttr.hpp:
+
+../src/xercesc/util/PlatformUtils.hpp:
+
+../src/xercesc/util/XMLException.hpp:
+
+../src/xercesc/util/XMemory.hpp:
+
+/usr/include/stdlib.h:
+
+/usr/include/Availability.h:
+
+/usr/include/AvailabilityInternal.h:
+
+/usr/include/sys/wait.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/machine/signal.h:
+
+/usr/include/i386/signal.h:
+
+/usr/include/i386/_structs.h:
+
+/usr/include/machine/_structs.h:
+
+/usr/include/mach/i386/_structs.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/alloca.h:
+
+../src/xercesc/util/XMLExceptMsgs.hpp:
+
+../src/xercesc/dom/DOMError.hpp:
+
+../src/xercesc/util/XMLUni.hpp:
+
+../src/xercesc/framework/XMLErrorReporter.hpp:
+
+../src/xercesc/util/PanicHandler.hpp:
+
+../src/xercesc/util/XMLFileMgr.hpp:
+
+../src/xercesc/util/XMLMutexMgr.hpp:
+
+../src/xercesc/util/QName.hpp:
+
+../src/xercesc/util/XMLString.hpp:
+
+../src/xercesc/util/BaseRefVectorOf.hpp:
+
+../src/xercesc/util/ArrayIndexOutOfBoundsException.hpp:
+
+../src/xercesc/util/XMLEnumerator.hpp:
+
+../src/xercesc/framework/MemoryManager.hpp:
+
+../src/xercesc/util/BaseRefVectorOf.c:
+
+../src/xercesc/framework/XMLBuffer.hpp:
+
+/usr/include/string.h:
+
+/usr/include/strings.h:
+
+/usr/include/assert.h:
+
+../src/xercesc/internal/XSerializable.hpp:
+
+../src/xercesc/internal/XSerializeEngine.hpp:
+
+../src/xercesc/util/RefHashTableOf.hpp:
+
+../src/xercesc/util/Hashers.hpp:
+
+../src/xercesc/util/IllegalArgumentException.hpp:
+
+../src/xercesc/util/NoSuchElementException.hpp:
+
+../src/xercesc/util/RuntimeException.hpp:
+
+../src/xercesc/util/RefHashTableOf.c:
+
+../src/xercesc/util/Janitor.hpp:
+
+../src/xercesc/util/Janitor.c:
+
+../src/xercesc/util/NullPointerException.hpp:
+
+/usr/include/c++/4.2.1/new:
+
+/usr/include/c++/4.2.1/cstddef:
+
+/usr/include/c++/4.2.1/bits/c++config.h:
+
+/usr/include/c++/4.2.1/bits/os_defines.h:
+
+/usr/include/unistd.h:
+
+/usr/include/sys/unistd.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/_select.h:
+
+/usr/include/c++/4.2.1/bits/cpu_defines.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h:
+
+/usr/include/c++/4.2.1/exception:
+
+../src/xercesc/util/ValueVectorOf.hpp:
+
+../src/xercesc/util/ValueVectorOf.c:
+
+../src/xercesc/internal/XSerializationException.hpp:
+
+../src/xercesc/internal/XProtoType.hpp:
+
+../src/xercesc/framework/XMLAttDef.hpp:
+
+../src/xercesc/validators/datatype/DatatypeValidator.hpp:
+
+../src/xercesc/util/KVStringPair.hpp:
+
+../src/xercesc/util/regx/RegularExpression.hpp:
+
+../src/xercesc/util/RefArrayVectorOf.hpp:
+
+../src/xercesc/util/RefArrayVectorOf.c:
+
+../src/xercesc/util/regx/Op.hpp:
+
+../src/xercesc/util/RefVectorOf.hpp:
+
+../src/xercesc/util/RefVectorOf.c:
+
+../src/xercesc/util/regx/TokenFactory.hpp:
+
+../src/xercesc/util/regx/Token.hpp:
+
+../src/xercesc/util/Mutexes.hpp:
+
+../src/xercesc/util/regx/BMPattern.hpp:
+
+../src/xercesc/util/regx/OpFactory.hpp:
+
+../src/xercesc/util/regx/RegxUtil.hpp:
+
+../src/xercesc/validators/schema/SchemaSymbols.hpp:
+
+../src/xercesc/framework/psvi/XSSimpleTypeDefinition.hpp:
+
+../src/xercesc/framework/psvi/XSTypeDefinition.hpp:
+
+../src/xercesc/framework/psvi/XSObject.hpp:
+
+../src/xercesc/framework/psvi/XSConstants.hpp:
+
+../src/xercesc/framework/ValidationContext.hpp:
+
+../src/xercesc/util/NameIdPool.hpp:
+
+../src/xercesc/util/NameIdPool.c:
+
+../src/xercesc/framework/XMLValidityCodes.hpp:
+
+../src/xercesc/framework/XMLPScanToken.hpp:
+
+../src/xercesc/validators/common/Grammar.hpp:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h:
+
+/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h:
+
+/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/machine/limits.h:
+
+/usr/include/i386/limits.h:
+
+/usr/include/i386/_limits.h:
+
+/usr/include/sys/syslimits.h:
+
+../src/xercesc/framework/XMLElementDecl.hpp:
+
+../src/xercesc/framework/XMLAttDefList.hpp:
+
+../src/xercesc/framework/XMLEntityDecl.hpp:
+
+../src/xercesc/framework/XMLNotationDecl.hpp:
+
+../src/xercesc/sax/EntityResolver.hpp:
+
+../src/xercesc/sax/DTDHandler.hpp:
+
+../src/xercesc/sax2/ContentHandler.hpp:
+
+../src/xercesc/sax/ErrorHandler.hpp:
+
+../src/xercesc/sax2/Attributes.hpp:

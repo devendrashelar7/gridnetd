@@ -1,0 +1,674 @@
+ERROR [main] portico.lrc: Error opening fed file from [file:/Users/devendrashelar7/workspace/electricDistributionSystems/gridlabd/testfom.fed]: /Users/devendrashelar7/workspace/electricDistributionSystems/gridlabd/testfom.fed (No such file or directory)
+org.portico.lrc.compat.JCouldNotOpenFED: Error opening fed file from [file:/Users/devendrashelar7/workspace/electricDistributionSystems/gridlabd/testfom.fed]: /Users/devendrashelar7/workspace/electricDistributionSystems/gridlabd/testfom.fed (No such file or directory)
+	at org.portico.utils.fom.FomParser.openStream(FomParser.java:131)
+	at org.portico.utils.fom.FomParser.parseFom(FomParser.java:62)
+	at org.portico.utils.fom.FomParser.parse(FomParser.java:159)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:65)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.createFederationExecution(ProxyRtiAmbassador.java:186)
+Caused by: java.io.FileNotFoundException: /Users/devendrashelar7/workspace/electricDistributionSystems/gridlabd/testfom.fed (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:97)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at java.net.URL.openStream(URL.java:1037)
+	at org.portico.utils.fom.FomParser.openStream(FomParser.java:127)
+	... 8 more
+ERROR [main] portico.lrc: Error opening fed file from [file:/Users/devendrashelar7/workspace/electricDistributionSystems/gridlabd/testfom.fed]: /Users/devendrashelar7/workspace/electricDistributionSystems/gridlabd/testfom.fed (No such file or directory)
+org.portico.lrc.compat.JCouldNotOpenFED: Error opening fed file from [file:/Users/devendrashelar7/workspace/electricDistributionSystems/gridlabd/testfom.fed]: /Users/devendrashelar7/workspace/electricDistributionSystems/gridlabd/testfom.fed (No such file or directory)
+	at org.portico.utils.fom.FomParser.openStream(FomParser.java:131)
+	at org.portico.utils.fom.FomParser.parseFom(FomParser.java:62)
+	at org.portico.utils.fom.FomParser.parse(FomParser.java:159)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:65)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.createFederationExecution(ProxyRtiAmbassador.java:186)
+Caused by: java.io.FileNotFoundException: /Users/devendrashelar7/workspace/electricDistributionSystems/gridlabd/testfom.fed (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:97)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at java.net.URL.openStream(URL.java:1037)
+	at org.portico.utils.fom.FomParser.openStream(FomParser.java:127)
+	... 8 more
+ERROR [main] portico.lrc: Error opening fed file from [file:/Users/devendrashelar7/workspace/electricDistributionSystems/gridlabd/models/testfom.fed]: /Users/devendrashelar7/workspace/electricDistributionSystems/gridlabd/models/testfom.fed (No such file or directory)
+org.portico.lrc.compat.JCouldNotOpenFED: Error opening fed file from [file:/Users/devendrashelar7/workspace/electricDistributionSystems/gridlabd/models/testfom.fed]: /Users/devendrashelar7/workspace/electricDistributionSystems/gridlabd/models/testfom.fed (No such file or directory)
+	at org.portico.utils.fom.FomParser.openStream(FomParser.java:131)
+	at org.portico.utils.fom.FomParser.parseFom(FomParser.java:62)
+	at org.portico.utils.fom.FomParser.parse(FomParser.java:159)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:65)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.createFederationExecution(ProxyRtiAmbassador.java:186)
+Caused by: java.io.FileNotFoundException: /Users/devendrashelar7/workspace/electricDistributionSystems/gridlabd/models/testfom.fed (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:97)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at java.net.URL.openStream(URL.java:1037)
+	at org.portico.utils.fom.FomParser.openStream(FomParser.java:127)
+	... 8 more
+ERROR [main] portico.lrc: federation doesn't exist: CYPRESFederation
+org.portico.lrc.compat.JFederationExecutionDoesNotExist: federation doesn't exist: CYPRESFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.joinFederation(FederationChannel.java:306)
+	at org.portico.bindings.jgroups.JGroupsConnection.joinFederation(JGroupsConnection.java:255)
+	at org.portico.lrc.services.federation.handlers.outgoing.JoinFederationHandler.process(JoinFederationHandler.java:105)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.joinFederationExecution(Rti13Ambassador.java:321)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.joinFederationExecution(ProxyRtiAmbassador.java:222)
+ERROR [main] portico.lrc: federation doesn't exist: CYPRESFederation
+org.portico.lrc.compat.JFederationExecutionDoesNotExist: federation doesn't exist: CYPRESFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.joinFederation(FederationChannel.java:306)
+	at org.portico.bindings.jgroups.JGroupsConnection.joinFederation(JGroupsConnection.java:255)
+	at org.portico.lrc.services.federation.handlers.outgoing.JoinFederationHandler.process(JoinFederationHandler.java:105)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.joinFederationExecution(Rti13Ambassador.java:321)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.joinFederationExecution(ProxyRtiAmbassador.java:222)
+ERROR [main] portico.lrc.jgroups: FAILURE destoryFederation [CypresFederation]: doesn't exist
+ERROR [main] portico.lrc: doesn't exist: CypresFederation
+org.portico.lrc.compat.JFederationExecutionDoesNotExist: doesn't exist: CypresFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:393)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,dhcp-18-111-27-49-65528] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,dhcp-18-111-27-49-47296] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc.jgroups: FAILURE createFederation: already exists, name=CYPRESFederation
+ERROR [main] portico.lrc: federation exists: CYPRESFederation
+org.portico.lrc.compat.JFederationExecutionAlreadyExists: federation exists: CYPRESFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.createFederation(FederationChannel.java:268)
+	at org.portico.bindings.jgroups.JGroupsConnection.createFederation(JGroupsConnection.java:232)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:79)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.createFederationExecution(ProxyRtiAmbassador.java:186)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc.jgroups: FAILURE createFederation: already exists, name=CYPRESFederation
+ERROR [main] portico.lrc: federation exists: CYPRESFederation
+org.portico.lrc.compat.JFederationExecutionAlreadyExists: federation exists: CYPRESFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.createFederation(FederationChannel.java:268)
+	at org.portico.bindings.jgroups.JGroupsConnection.createFederation(JGroupsConnection.java:232)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:79)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.createFederationExecution(ProxyRtiAmbassador.java:186)
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,Devendras-MacBook-Pro-33637] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+ERROR [main] portico.lrc.jgroups: FAILURE createFederation: already exists, name=CYPRESFederation
+ERROR [main] portico.lrc: federation exists: CYPRESFederation
+org.portico.lrc.compat.JFederationExecutionAlreadyExists: federation exists: CYPRESFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.createFederation(FederationChannel.java:268)
+	at org.portico.bindings.jgroups.JGroupsConnection.createFederation(JGroupsConnection.java:232)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:79)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.createFederationExecution(ProxyRtiAmbassador.java:186)
+ERROR [main] portico.lrc: federate name in use: GRIDLabDFederate
+org.portico.lrc.compat.JFederateAlreadyExecutionMember: federate name in use: GRIDLabDFederate
+	at org.portico.bindings.jgroups.channel.FederationChannel.joinFederation(FederationChannel.java:319)
+	at org.portico.bindings.jgroups.JGroupsConnection.joinFederation(JGroupsConnection.java:255)
+	at org.portico.lrc.services.federation.handlers.outgoing.JoinFederationHandler.process(JoinFederationHandler.java:105)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.joinFederationExecution(Rti13Ambassador.java:321)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.joinFederationExecution(ProxyRtiAmbassador.java:222)
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,Devendras-MacBook-Pro-7946] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+ERROR [main] portico.lrc.jgroups: FAILURE createFederation: already exists, name=CYPRESFederation
+ERROR [main] portico.lrc: federation exists: CYPRESFederation
+org.portico.lrc.compat.JFederationExecutionAlreadyExists: federation exists: CYPRESFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.createFederation(FederationChannel.java:268)
+	at org.portico.bindings.jgroups.JGroupsConnection.createFederation(JGroupsConnection.java:232)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:79)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.createFederationExecution(ProxyRtiAmbassador.java:186)
+ERROR [main] portico.lrc: FAILURE Regiser sync point [ReadyToRun] by [GRIDLabDFederate2]: already registered
+ERROR [main] portico.lrc: FAILURE Register sync point [ReadyToRun] by [GRIDLabDFederate2]: label already registered
+ERROR [main] portico.lrc: federates still joined: [1]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [1]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,Devendras-MacBook-Pro-25396] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+ERROR [main] portico.lrc.jgroups: FAILURE createFederation: already exists, name=CYPRESFederation
+ERROR [main] portico.lrc: federation exists: CYPRESFederation
+org.portico.lrc.compat.JFederationExecutionAlreadyExists: federation exists: CYPRESFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.createFederation(FederationChannel.java:268)
+	at org.portico.bindings.jgroups.JGroupsConnection.createFederation(JGroupsConnection.java:232)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:79)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.createFederationExecution(ProxyRtiAmbassador.java:186)
+ERROR [main] portico.lrc: FAILURE Regiser sync point [ReadyToRun] by [GRIDLabDFederate2]: already registered
+ERROR [main] portico.lrc: FAILURE Register sync point [ReadyToRun] by [GRIDLabDFederate2]: label already registered
+ERROR [main] portico.lrc: federates still joined: [1]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [1]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,Devendras-MacBook-Pro-51569] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc.jgroups: FAILURE createFederation: already exists, name=CYPRESFederation
+ERROR [main] portico.lrc: federation exists: CYPRESFederation
+org.portico.lrc.compat.JFederationExecutionAlreadyExists: federation exists: CYPRESFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.createFederation(FederationChannel.java:268)
+	at org.portico.bindings.jgroups.JGroupsConnection.createFederation(JGroupsConnection.java:232)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:79)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.createFederationExecution(ProxyRtiAmbassador.java:186)
+ERROR [main] portico.lrc: FAILURE Regiser sync point [ReadyToRun] by [GRIDLabDFederate]: already registered
+ERROR [main] portico.lrc: FAILURE Register sync point [ReadyToRun] by [GRIDLabDFederate]: label already registered
+ERROR [main] portico.lrc: federates still joined: [1]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [1]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: federates still joined: [2]
+org.portico.lrc.compat.JFederatesCurrentlyJoined: federates still joined: [2]
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:402)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.destroyFederationExecution(ProxyRtiAmbassador.java:202)
+ERROR [main] portico.lrc: TimeoutException
+org.jgroups.TimeoutException: TimeoutException
+	at org.jgroups.util.Promise._getResultWithTimeout(Promise.java:145)
+	at org.jgroups.util.Promise.getResultWithTimeout(Promise.java:40)
+	at org.jgroups.util.AckCollector.waitForAllAcks(AckCollector.java:93)
+	at org.jgroups.protocols.RSVP$Entry.block(RSVP.java:287)
+	at org.jgroups.protocols.RSVP.down(RSVP.java:118)
+	at org.jgroups.protocols.pbcast.STABLE.down(STABLE.java:328)
+	at org.jgroups.protocols.pbcast.GMS.down(GMS.java:965)
+	at org.jgroups.protocols.FlowControl.down(FlowControl.java:351)
+	at org.jgroups.protocols.FlowControl.down(FlowControl.java:351)
+	at org.jgroups.protocols.FRAG2.down(FRAG2.java:147)
+	at org.jgroups.protocols.pbcast.STATE_TRANSFER.down(STATE_TRANSFER.java:238)
+	at org.jgroups.protocols.pbcast.FLUSH.down(FLUSH.java:312)
+	at org.jgroups.stack.ProtocolStack.down(ProtocolStack.java:1025)
+	at org.jgroups.JChannel.down(JChannel.java:729)
+	at org.jgroups.JChannel.send(JChannel.java:445)
+	at org.portico.bindings.jgroups.channel.FederationChannel.resignFederation(FederationChannel.java:368)
+	at org.portico.bindings.jgroups.JGroupsConnection.resignFederation(JGroupsConnection.java:305)
+	at org.portico.lrc.services.federation.handlers.outgoing.ResignFederationHandler.process(ResignFederationHandler.java:83)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.resignFederationExecution(Rti13Ambassador.java:412)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.resignFederationExecution(ProxyRtiAmbassador.java:239)
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,Devendras-MacBook-Pro-43312] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,Devendras-MacBook-Pro-53657] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+ERROR [main] portico.lrc.jgroups: FAILURE createFederation: already exists, name=CYPRESFederation
+ERROR [main] portico.lrc: federation exists: CYPRESFederation
+org.portico.lrc.compat.JFederationExecutionAlreadyExists: federation exists: CYPRESFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.createFederation(FederationChannel.java:268)
+	at org.portico.bindings.jgroups.JGroupsConnection.createFederation(JGroupsConnection.java:232)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:79)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.createFederationExecution(ProxyRtiAmbassador.java:186)
+ERROR [main] portico.lrc: FAILURE Register sync point [ReadyToRun] by [GRIDLabDFederate]: already announced
+ERROR [main] portico.lrc: TimeoutException
+org.jgroups.TimeoutException: TimeoutException
+	at org.jgroups.util.Promise._getResultWithTimeout(Promise.java:145)
+	at org.jgroups.util.Promise.getResultWithTimeout(Promise.java:40)
+	at org.jgroups.util.AckCollector.waitForAllAcks(AckCollector.java:93)
+	at org.jgroups.protocols.RSVP$Entry.block(RSVP.java:287)
+	at org.jgroups.protocols.RSVP.down(RSVP.java:118)
+	at org.jgroups.protocols.pbcast.STABLE.down(STABLE.java:328)
+	at org.jgroups.protocols.pbcast.GMS.down(GMS.java:965)
+	at org.jgroups.protocols.FlowControl.down(FlowControl.java:351)
+	at org.jgroups.protocols.FlowControl.down(FlowControl.java:351)
+	at org.jgroups.protocols.FRAG2.down(FRAG2.java:147)
+	at org.jgroups.protocols.pbcast.STATE_TRANSFER.down(STATE_TRANSFER.java:238)
+	at org.jgroups.protocols.pbcast.FLUSH.down(FLUSH.java:312)
+	at org.jgroups.stack.ProtocolStack.down(ProtocolStack.java:1025)
+	at org.jgroups.JChannel.down(JChannel.java:729)
+	at org.jgroups.JChannel.send(JChannel.java:445)
+	at org.portico.bindings.jgroups.channel.FederationChannel.resignFederation(FederationChannel.java:368)
+	at org.portico.bindings.jgroups.JGroupsConnection.resignFederation(JGroupsConnection.java:305)
+	at org.portico.lrc.services.federation.handlers.outgoing.ResignFederationHandler.process(ResignFederationHandler.java:83)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.resignFederationExecution(Rti13Ambassador.java:412)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.resignFederationExecution(ProxyRtiAmbassador.java:239)
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,Devendras-MacBook-Pro-35444] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+ERROR [main] portico.lrc: TimeoutException
+org.jgroups.TimeoutException: TimeoutException
+	at org.jgroups.util.Promise._getResultWithTimeout(Promise.java:145)
+	at org.jgroups.util.Promise.getResultWithTimeout(Promise.java:40)
+	at org.jgroups.util.AckCollector.waitForAllAcks(AckCollector.java:93)
+	at org.jgroups.protocols.RSVP$Entry.block(RSVP.java:287)
+	at org.jgroups.protocols.RSVP.down(RSVP.java:118)
+	at org.jgroups.protocols.pbcast.STABLE.down(STABLE.java:328)
+	at org.jgroups.protocols.pbcast.GMS.down(GMS.java:965)
+	at org.jgroups.protocols.FlowControl.down(FlowControl.java:351)
+	at org.jgroups.protocols.FlowControl.down(FlowControl.java:351)
+	at org.jgroups.protocols.FRAG2.down(FRAG2.java:147)
+	at org.jgroups.protocols.pbcast.STATE_TRANSFER.down(STATE_TRANSFER.java:238)
+	at org.jgroups.protocols.pbcast.FLUSH.down(FLUSH.java:312)
+	at org.jgroups.stack.ProtocolStack.down(ProtocolStack.java:1025)
+	at org.jgroups.JChannel.down(JChannel.java:729)
+	at org.jgroups.JChannel.send(JChannel.java:445)
+	at org.portico.bindings.jgroups.channel.FederationChannel.resignFederation(FederationChannel.java:368)
+	at org.portico.bindings.jgroups.JGroupsConnection.resignFederation(JGroupsConnection.java:305)
+	at org.portico.lrc.services.federation.handlers.outgoing.ResignFederationHandler.process(ResignFederationHandler.java:83)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.resignFederationExecution(Rti13Ambassador.java:412)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.resignFederationExecution(ProxyRtiAmbassador.java:239)
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,Devendras-MacBook-Pro-36583] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,Devendras-MacBook-Pro-47731] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+ERROR [main] portico.lrc: TimeoutException
+org.jgroups.TimeoutException: TimeoutException
+	at org.jgroups.util.Promise._getResultWithTimeout(Promise.java:145)
+	at org.jgroups.util.Promise.getResultWithTimeout(Promise.java:40)
+	at org.jgroups.util.AckCollector.waitForAllAcks(AckCollector.java:93)
+	at org.jgroups.protocols.RSVP$Entry.block(RSVP.java:287)
+	at org.jgroups.protocols.RSVP.down(RSVP.java:118)
+	at org.jgroups.protocols.pbcast.STABLE.down(STABLE.java:328)
+	at org.jgroups.protocols.pbcast.GMS.down(GMS.java:965)
+	at org.jgroups.protocols.FlowControl.down(FlowControl.java:351)
+	at org.jgroups.protocols.FlowControl.down(FlowControl.java:351)
+	at org.jgroups.protocols.FRAG2.down(FRAG2.java:147)
+	at org.jgroups.protocols.pbcast.STATE_TRANSFER.down(STATE_TRANSFER.java:238)
+	at org.jgroups.protocols.pbcast.FLUSH.down(FLUSH.java:312)
+	at org.jgroups.stack.ProtocolStack.down(ProtocolStack.java:1025)
+	at org.jgroups.JChannel.down(JChannel.java:729)
+	at org.jgroups.JChannel.send(JChannel.java:445)
+	at org.portico.bindings.jgroups.channel.FederationChannel.resignFederation(FederationChannel.java:368)
+	at org.portico.bindings.jgroups.JGroupsConnection.resignFederation(JGroupsConnection.java:305)
+	at org.portico.lrc.services.federation.handlers.outgoing.ResignFederationHandler.process(ResignFederationHandler.java:83)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.resignFederationExecution(Rti13Ambassador.java:412)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.resignFederationExecution(ProxyRtiAmbassador.java:239)
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,pierce-twenty-one-42828] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,pierce-twenty-one-21478] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,pierce-twenty-one-21478] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,pierce-twenty-one-21478] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,pierce-twenty-one-21478] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,pierce-twenty-one-21478] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,pierce-twenty-one-21478] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,pierce-twenty-one-46864] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,pierce-twenty-one-6999] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+ERROR [main] portico.lrc.jgroups: FAILURE createFederation: already exists, name=CYPRESFederation
+ERROR [main] portico.lrc: federation exists: CYPRESFederation
+org.portico.lrc.compat.JFederationExecutionAlreadyExists: federation exists: CYPRESFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.createFederation(FederationChannel.java:268)
+	at org.portico.bindings.jgroups.JGroupsConnection.createFederation(JGroupsConnection.java:232)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:79)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.createFederationExecution(ProxyRtiAmbassador.java:186)
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,pierce-twenty-one-65103] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+ERROR [main] portico.lrc.jgroups: FAILURE createFederation: already exists, name=CYPRESFederation
+ERROR [main] portico.lrc: federation exists: CYPRESFederation
+org.portico.lrc.compat.JFederationExecutionAlreadyExists: federation exists: CYPRESFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.createFederation(FederationChannel.java:268)
+	at org.portico.bindings.jgroups.JGroupsConnection.createFederation(JGroupsConnection.java:232)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:79)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.createFederationExecution(ProxyRtiAmbassador.java:186)
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,pierce-twenty-one-32210] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,pierce-twenty-one-60105] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,pierce-twenty-one-39753] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,CYPRESFederation,pierce-twenty-one-63335] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+ERROR [main] portico.lrc.jgroups: FAILURE createFederation: already exists, name=CYPRESFederation
+ERROR [main] portico.lrc: federation exists: CYPRESFederation
+org.portico.lrc.compat.JFederationExecutionAlreadyExists: federation exists: CYPRESFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.createFederation(FederationChannel.java:268)
+	at org.portico.bindings.jgroups.JGroupsConnection.createFederation(JGroupsConnection.java:232)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:79)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.createFederationExecution(ProxyRtiAmbassador.java:186)
+ERROR [main] portico.lrc.jgroups: FAILURE createFederation: already exists, name=CYPRESFederation
+ERROR [main] portico.lrc: federation exists: CYPRESFederation
+org.portico.lrc.compat.JFederationExecutionAlreadyExists: federation exists: CYPRESFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.createFederation(FederationChannel.java:268)
+	at org.portico.bindings.jgroups.JGroupsConnection.createFederation(JGroupsConnection.java:232)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:79)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at org.portico.impl.cpp13.ProxyRtiAmbassador.createFederationExecution(ProxyRtiAmbassador.java:186)

@@ -1,0 +1,66 @@
+// Test file for evcharger_det device
+#set profiler=1;
+
+clock {
+     timezone PST+8PDT;
+     starttime '2009-06-01 00:00:00';
+     stoptime '2009-06-05 00:00:00';
+}
+
+module tape;
+module residential;
+
+object house {
+     name house_for_sake_of_a_house;
+ }
+
+//CSV-populated EV
+object evcharger_det {
+	name ev_file_read;
+	parent house_for_sake_of_a_house;
+	data_file "Sample_NHTS.csv";		//CSV file with car parameters
+	vehicle_index 1;					//Could be populated by a script
+	charging_efficiency 0.900000;		//Efficiency of the charger - energy consumed vs. energy put into the battery
+	mileage_classification 110.000000;	//Mileage rating on PHEV (e.g., PHEV-110 runs 110 miles on electric)
+	mileage_efficiency 3.846000;		//Miles per kWh - helps determine battery size
+	maximum_charge_rate 1700.000000;	//Makimum power draw in Watts - used to determine charge rate and load
+	work_charging_available FALSE;		//Whether the vehicle charges at work - just affects SOC - not included as power draw on system (assumes work is on another feeder)
+	object recorder {
+			property "charge_rate,vehicle_location,battery_SOC,power";
+			interval 3600;
+			file "EV_det_output_3600.csv";
+		};
+}
+
+//CSV-populated EV with variation
+object evcharger_det {
+	name ev_file_read_var;
+	parent house_for_sake_of_a_house;
+	data_file "Sample_NHTS.csv";		//CSV file with car parameters
+	vehicle_index 2;					//Could be populated by a script
+	charging_efficiency 0.900000;		//Efficiency of the charger - energy consumed vs. energy put into the battery
+	mileage_classification 110.000000;	//Mileage rating on PHEV (e.g., PHEV-110 runs 110 miles on electric)
+	mileage_efficiency 3.846000;		//Miles per kWh - helps determine battery size
+	maximum_charge_rate 1700.000000;	//Makimum power draw in Watts - used to determine charge rate and load
+	work_charging_available FALSE;		//Whether the vehicle charges at work - just affects SOC - not included as power draw on system (assumes work is on another feeder)
+	variation_mean 600.000000;			//Mean of normal distribution variations on the schedule times
+	variation_std_dev 300.000000;		//Standard deviation of normal distribution variations on the schedule times
+	variation_trip_mean 3.000000;		//Mean of the normal distribution of distance variations
+	variation_trip_std_dev 3.000000;	//Standard deviation of normal distribution variations on the schedule times
+	object recorder {
+			property "charge_rate,vehicle_location,battery_SOC,power";
+			interval 3600;
+			file "EV_det_output_var_3600.csv";
+		};
+}
+
+//Default EV
+object evcharger_det {
+	name ev_file_default;
+	parent house_for_sake_of_a_house;
+	object recorder {
+			property "charge_rate,vehicle_location,battery_SOC,power";
+			interval 3600;
+			file "EV_det_output_default_3600.csv";
+		};
+}

@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Test Files">
+      <UniqueIdentifier>{4fdf946e-9e75-43e9-af43-9c0a97063dbc}</UniqueIdentifier>
+      <Extensions>glm;shape;player;csv</Extensions>
+    </Filter>
+    <Filter Include="Test Files\Autotest">
+      <UniqueIdentifier>{5225b9f4-5337-4190-b236-0de9c468c016}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\residential\clotheswasher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\dishwasher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\dryer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\evcharger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\freezer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\house_a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\house_e.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\lights.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\microwave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\occupantload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\plugload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\range.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\refrigerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\residential_enduse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\solvers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\thermal_storage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\waterheater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\residential\zipload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\residential\clotheswasher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\residential\dishwasher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\residential\dryer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\residential\evcharger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\residential\freezer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\residential\house_a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\residential\house_e.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\residential\lights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\residential\microwave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\residential\occupantload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\residential\plugload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\residential\range.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\residential\refrigerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\residential\residential.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\residential\residential_enduse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\residential\solvers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\residential\thermal_storage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\residential\waterheater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\residential\zipload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\residential\test\evcharger.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="..\residential\test\evcharger_demand_profile.csv">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="..\test\input\residential_1home.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="..\test\input\residential_5home.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="..\test\input\residential_meter.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_clotheswasher_explicit_energy_swd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_clotheswasher_explicit_energy_swy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_clotheswasher_explicit_energy_wwd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_clotheswasher_explicit_energy_wwy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_clotheswasher_implicit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_dishwasher_explicit_power1.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_dishwasher_explicit_power2.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_dishwasher_implicit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_dryer_explicit_energy_swd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_dryer_explicit_energy_swy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_dryer_explicit_energy_wwd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_dryer_explicit_energy_wwy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_dryer_implicit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_freezer_deadband.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_freezer_implicit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_lights_explicit_power1.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_lights_explicit_power2.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_lights_explicit_power3.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_lights_explicit_power4.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_lights_implicit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_lights_implicit_power1.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_lights_implicit_power2.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_lights_implicit_power3.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_lights_implicit_power4.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_lights_standalone.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_microwave_cycle_length_limits_err.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_microwave_demand_limits.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_microwave_energy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_microwave_energy_accumulation.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_microwave_explicit_swd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_microwave_explicit_swy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_microwave_explicit_wwd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_microwave_explicit_wwy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_microwave_implicit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_microwave_implicit_swd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_microwave_implicit_swy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_microwave_implicit_wwd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_microwave_implicit_wwy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_microwave_internal_gains.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_microwave_standby_power_limits.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_occupantload_enduse_load0.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_plugload_demand_range_bounds.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_plugload_enduse_load.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_plugload_energy_meter.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_plugload_explicit_swd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_plugload_explicit_swy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_plugload_explicit_wwd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_plugload_explicit_wwy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_plugload_implicit_swd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_plugload_implicit_swy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_plugload_implicit_wwd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_plugload_implicit_wwy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_plugload_internal_gains.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_plugload_internal_gains_hf.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_range_explicit_energy1.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_range_explicit_energy2.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_range_explicit_energy3.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_range_explicit_energy4.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_range_implicit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_range_power.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_refrigerator_implicit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_residentialenduse_standalone.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_solargains.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_waterheater_implicit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="..\residential\autotest\test_waterheater_standalone.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+  </ItemGroup>
+</Project>

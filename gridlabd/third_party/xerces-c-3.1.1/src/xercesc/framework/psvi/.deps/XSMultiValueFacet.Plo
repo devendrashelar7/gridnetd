@@ -1,0 +1,238 @@
+xercesc/framework/psvi/XSMultiValueFacet.lo \
+  xercesc/framework/psvi/XSMultiValueFacet.o:  \
+ xercesc/framework/psvi/XSMultiValueFacet.cpp \
+  xercesc/framework/psvi/XSMultiValueFacet.hpp \
+  xercesc/framework/psvi/XSObject.hpp xercesc/util/PlatformUtils.hpp \
+  xercesc/util/XercesDefs.hpp xercesc/util/Xerces_autoconf_config.hpp \
+  /usr/include/inttypes.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_symbol_aliasing.h \
+  /usr/include/sys/_posix_availability.h /usr/include/_types.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/i386/_types.h /usr/include/stdint.h \
+  /usr/include/sys/types.h /usr/include/sys/appleapiopts.h \
+  /usr/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/i386/_types.h /usr/include/machine/endian.h \
+  /usr/include/i386/endian.h /usr/include/sys/_endian.h \
+  /usr/include/libkern/_OSByteOrder.h \
+  /usr/include/libkern/i386/_OSByteOrder.h /usr/include/sys/_structs.h \
+  xercesc/util/XercesVersion.hpp xercesc/util/XMLException.hpp \
+  xercesc/util/XMemory.hpp /usr/include/stdlib.h \
+  /usr/include/Availability.h /usr/include/AvailabilityInternal.h \
+  /usr/include/sys/wait.h /usr/include/sys/signal.h \
+  /usr/include/machine/signal.h /usr/include/i386/signal.h \
+  /usr/include/i386/_structs.h /usr/include/machine/_structs.h \
+  /usr/include/mach/i386/_structs.h /usr/include/sys/resource.h \
+  /usr/include/alloca.h xercesc/util/XMLExceptMsgs.hpp \
+  xercesc/dom/DOMError.hpp xercesc/util/XMLUni.hpp \
+  xercesc/framework/XMLErrorReporter.hpp xercesc/util/PanicHandler.hpp \
+  xercesc/util/XMLFileMgr.hpp xercesc/util/XMLMutexMgr.hpp \
+  xercesc/framework/psvi/XSConstants.hpp xercesc/util/RefVectorOf.hpp \
+  xercesc/util/BaseRefVectorOf.hpp \
+  xercesc/util/ArrayIndexOutOfBoundsException.hpp \
+  xercesc/util/XMLEnumerator.hpp xercesc/framework/MemoryManager.hpp \
+  xercesc/util/BaseRefVectorOf.c xercesc/util/RefVectorOf.c \
+  xercesc/util/RefArrayVectorOf.hpp xercesc/util/RefArrayVectorOf.c \
+  xercesc/framework/psvi/XSSimpleTypeDefinition.hpp \
+  xercesc/framework/psvi/XSTypeDefinition.hpp \
+  xercesc/framework/psvi/XSAnnotation.hpp \
+  xercesc/internal/XSerializable.hpp \
+  xercesc/internal/XSerializeEngine.hpp xercesc/util/RefHashTableOf.hpp \
+  xercesc/util/Hashers.hpp xercesc/util/XMLString.hpp \
+  xercesc/framework/XMLBuffer.hpp /usr/include/string.h \
+  /usr/include/strings.h /usr/include/assert.h \
+  xercesc/util/IllegalArgumentException.hpp \
+  xercesc/util/NoSuchElementException.hpp \
+  xercesc/util/RuntimeException.hpp xercesc/util/RefHashTableOf.c \
+  xercesc/util/Janitor.hpp xercesc/util/Janitor.c \
+  xercesc/util/NullPointerException.hpp /usr/include/c++/4.2.1/new \
+  /usr/include/c++/4.2.1/cstddef /usr/include/c++/4.2.1/bits/c++config.h \
+  /usr/include/c++/4.2.1/bits/os_defines.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/sys/select.h \
+  /usr/include/sys/_select.h /usr/include/c++/4.2.1/bits/cpu_defines.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h \
+  /usr/include/c++/4.2.1/exception xercesc/util/ValueVectorOf.hpp \
+  xercesc/util/ValueVectorOf.c \
+  xercesc/internal/XSerializationException.hpp \
+  xercesc/internal/XProtoType.hpp
+
+xercesc/framework/psvi/XSMultiValueFacet.hpp:
+
+xercesc/framework/psvi/XSObject.hpp:
+
+xercesc/util/PlatformUtils.hpp:
+
+xercesc/util/XercesDefs.hpp:
+
+xercesc/util/Xerces_autoconf_config.hpp:
+
+/usr/include/inttypes.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/_symbol_aliasing.h:
+
+/usr/include/sys/_posix_availability.h:
+
+/usr/include/_types.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/i386/_types.h:
+
+/usr/include/stdint.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/appleapiopts.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/i386/types.h:
+
+/usr/include/i386/_types.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/i386/endian.h:
+
+/usr/include/sys/_endian.h:
+
+/usr/include/libkern/_OSByteOrder.h:
+
+/usr/include/libkern/i386/_OSByteOrder.h:
+
+/usr/include/sys/_structs.h:
+
+xercesc/util/XercesVersion.hpp:
+
+xercesc/util/XMLException.hpp:
+
+xercesc/util/XMemory.hpp:
+
+/usr/include/stdlib.h:
+
+/usr/include/Availability.h:
+
+/usr/include/AvailabilityInternal.h:
+
+/usr/include/sys/wait.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/machine/signal.h:
+
+/usr/include/i386/signal.h:
+
+/usr/include/i386/_structs.h:
+
+/usr/include/machine/_structs.h:
+
+/usr/include/mach/i386/_structs.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/alloca.h:
+
+xercesc/util/XMLExceptMsgs.hpp:
+
+xercesc/dom/DOMError.hpp:
+
+xercesc/util/XMLUni.hpp:
+
+xercesc/framework/XMLErrorReporter.hpp:
+
+xercesc/util/PanicHandler.hpp:
+
+xercesc/util/XMLFileMgr.hpp:
+
+xercesc/util/XMLMutexMgr.hpp:
+
+xercesc/framework/psvi/XSConstants.hpp:
+
+xercesc/util/RefVectorOf.hpp:
+
+xercesc/util/BaseRefVectorOf.hpp:
+
+xercesc/util/ArrayIndexOutOfBoundsException.hpp:
+
+xercesc/util/XMLEnumerator.hpp:
+
+xercesc/framework/MemoryManager.hpp:
+
+xercesc/util/BaseRefVectorOf.c:
+
+xercesc/util/RefVectorOf.c:
+
+xercesc/util/RefArrayVectorOf.hpp:
+
+xercesc/util/RefArrayVectorOf.c:
+
+xercesc/framework/psvi/XSSimpleTypeDefinition.hpp:
+
+xercesc/framework/psvi/XSTypeDefinition.hpp:
+
+xercesc/framework/psvi/XSAnnotation.hpp:
+
+xercesc/internal/XSerializable.hpp:
+
+xercesc/internal/XSerializeEngine.hpp:
+
+xercesc/util/RefHashTableOf.hpp:
+
+xercesc/util/Hashers.hpp:
+
+xercesc/util/XMLString.hpp:
+
+xercesc/framework/XMLBuffer.hpp:
+
+/usr/include/string.h:
+
+/usr/include/strings.h:
+
+/usr/include/assert.h:
+
+xercesc/util/IllegalArgumentException.hpp:
+
+xercesc/util/NoSuchElementException.hpp:
+
+xercesc/util/RuntimeException.hpp:
+
+xercesc/util/RefHashTableOf.c:
+
+xercesc/util/Janitor.hpp:
+
+xercesc/util/Janitor.c:
+
+xercesc/util/NullPointerException.hpp:
+
+/usr/include/c++/4.2.1/new:
+
+/usr/include/c++/4.2.1/cstddef:
+
+/usr/include/c++/4.2.1/bits/c++config.h:
+
+/usr/include/c++/4.2.1/bits/os_defines.h:
+
+/usr/include/unistd.h:
+
+/usr/include/sys/unistd.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/_select.h:
+
+/usr/include/c++/4.2.1/bits/cpu_defines.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h:
+
+/usr/include/c++/4.2.1/exception:
+
+xercesc/util/ValueVectorOf.hpp:
+
+xercesc/util/ValueVectorOf.c:
+
+xercesc/internal/XSerializationException.hpp:
+
+xercesc/internal/XProtoType.hpp:

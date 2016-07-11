@@ -1,0 +1,16 @@
+# file...... models/useCaseWithAttack3.csv
+# date...... Fri Oct 30 12:34:54 2015
+# user...... devendrashelar7
+# host...... (null)
+# target.... switch 10
+# trigger... (none)
+# interval.. 1
+# limit..... 0
+# timestamp,current_in_A.real,current_in_A.imag
+2000-01-01 00:00:00 EST,+1004.83,-514.431
+2000-01-01 00:00:01 EST,+1004.83,-514.431
+2000-01-01 00:00:02 EST,+1004.83,-514.431
+2000-01-01 00:00:03 EST,+1004.83,-514.431
+2000-01-01 00:00:04 EST,+1004.83,-514.431
+2000-01-01 00:00:05 EST,+1004.83,-514.431
+2000-01-01 00:00:06 EST,+1004.83,-514.431

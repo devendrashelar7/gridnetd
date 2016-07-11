@@ -1,0 +1,100 @@
+// $id$
+//	Copyright (C) 2008 Battelle Memorial Institute
+
+// 4 Node Feeder: Balanced step-down grY-grY
+
+/////////////////////////////////////////////
+// BEGIN
+/////////////////////////////////////////////
+
+clock {
+	timezone EST+5EDT;
+	starttime '2000-01-01 0:00:00';
+	stoptime '2000-01-02 0:00:00';
+}
+
+module powerflow{
+	solver_method NR;
+}
+
+object overhead_line_conductor:100 {
+	geometric_mean_radius 0.0244;
+	resistance 0.3;
+}
+
+object overhead_line_conductor:101 {
+	geometric_mean_radius 0.00814;
+	resistance 0.3;
+}
+
+object line_spacing:200 {
+	distance_AN 10;
+}
+
+object line_configuration:300 {
+	conductor_A overhead_line_conductor:100;
+	conductor_N overhead_line_conductor:101;
+	spacing line_spacing:200;
+}
+
+
+
+object node {
+	name node1;
+	phases "AN";
+	bustype SWING;
+	voltage_A +120+0.000j;
+	nominal_voltage 120;
+}
+
+object overhead_line:12 {
+	phases "AN";
+	from node1;
+	to node2;
+	length 2000;
+	configuration line_configuration:300;
+}
+
+
+object node {
+	name node2;
+	phases "AN";
+	voltage_A +120+0j;
+	nominal_voltage 120;
+}
+
+object overhead_line:23 {
+	phases "AN";
+	from node2;
+	to node3;
+	length 2000;
+	configuration line_configuration:300;
+}
+
+object node {
+	name node3;
+	phases "AN";
+	voltage_A +120+0.0j;
+	nominal_voltage 120;
+}
+
+object overhead_line:34 {
+	phases "AN";
+	from node3;
+	to load4;
+	length 2500;
+	configuration line_configuration:300;
+}
+
+object load {
+	name load4;
+	phases "AN";
+	voltage_A +120+0j;
+	constant_power_A +120+40j;
+	nominal_voltage 120;
+}
+
+
+///////////////////////////////
+// END
+//////////////////////////////

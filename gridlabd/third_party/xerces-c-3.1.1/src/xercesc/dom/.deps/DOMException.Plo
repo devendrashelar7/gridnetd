@@ -1,0 +1,166 @@
+xercesc/dom/DOMException.lo xercesc/dom/DOMException.o:  \
+ xercesc/dom/DOMException.cpp xercesc/dom/DOMImplementation.hpp \
+  xercesc/dom/DOMImplementationLS.hpp xercesc/util/PlatformUtils.hpp \
+  xercesc/util/XercesDefs.hpp xercesc/util/Xerces_autoconf_config.hpp \
+  /usr/include/inttypes.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_symbol_aliasing.h \
+  /usr/include/sys/_posix_availability.h /usr/include/_types.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/i386/_types.h /usr/include/stdint.h \
+  /usr/include/sys/types.h /usr/include/sys/appleapiopts.h \
+  /usr/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/i386/_types.h /usr/include/machine/endian.h \
+  /usr/include/i386/endian.h /usr/include/sys/_endian.h \
+  /usr/include/libkern/_OSByteOrder.h \
+  /usr/include/libkern/i386/_OSByteOrder.h /usr/include/sys/_structs.h \
+  xercesc/util/XercesVersion.hpp xercesc/util/XMLException.hpp \
+  xercesc/util/XMemory.hpp /usr/include/stdlib.h \
+  /usr/include/Availability.h /usr/include/AvailabilityInternal.h \
+  /usr/include/sys/wait.h /usr/include/sys/signal.h \
+  /usr/include/machine/signal.h /usr/include/i386/signal.h \
+  /usr/include/i386/_structs.h /usr/include/machine/_structs.h \
+  /usr/include/mach/i386/_structs.h /usr/include/sys/resource.h \
+  /usr/include/alloca.h xercesc/util/XMLExceptMsgs.hpp \
+  xercesc/dom/DOMError.hpp xercesc/util/XMLUni.hpp \
+  xercesc/framework/XMLErrorReporter.hpp xercesc/util/PanicHandler.hpp \
+  xercesc/util/XMLFileMgr.hpp xercesc/util/XMLMutexMgr.hpp \
+  xercesc/dom/DOMException.hpp xercesc/dom/DOMLSException.hpp \
+  xercesc/dom/DOMRangeException.hpp xercesc/framework/MemoryManager.hpp \
+  xercesc/util/XMLString.hpp xercesc/util/BaseRefVectorOf.hpp \
+  xercesc/util/ArrayIndexOutOfBoundsException.hpp \
+  xercesc/util/XMLEnumerator.hpp xercesc/util/BaseRefVectorOf.c \
+  xercesc/framework/XMLBuffer.hpp /usr/include/string.h \
+  /usr/include/strings.h /usr/include/assert.h \
+  xercesc/util/XMLMsgLoader.hpp xercesc/util/XMLDOMMsg.hpp \
+  xercesc/dom/impl/DOMImplementationImpl.hpp \
+  xercesc/dom/DOMImplementationSource.hpp xercesc/dom/DOMException.hpp
+
+xercesc/dom/DOMImplementation.hpp:
+
+xercesc/dom/DOMImplementationLS.hpp:
+
+xercesc/util/PlatformUtils.hpp:
+
+xercesc/util/XercesDefs.hpp:
+
+xercesc/util/Xerces_autoconf_config.hpp:
+
+/usr/include/inttypes.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/_symbol_aliasing.h:
+
+/usr/include/sys/_posix_availability.h:
+
+/usr/include/_types.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/i386/_types.h:
+
+/usr/include/stdint.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/appleapiopts.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/i386/types.h:
+
+/usr/include/i386/_types.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/i386/endian.h:
+
+/usr/include/sys/_endian.h:
+
+/usr/include/libkern/_OSByteOrder.h:
+
+/usr/include/libkern/i386/_OSByteOrder.h:
+
+/usr/include/sys/_structs.h:
+
+xercesc/util/XercesVersion.hpp:
+
+xercesc/util/XMLException.hpp:
+
+xercesc/util/XMemory.hpp:
+
+/usr/include/stdlib.h:
+
+/usr/include/Availability.h:
+
+/usr/include/AvailabilityInternal.h:
+
+/usr/include/sys/wait.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/machine/signal.h:
+
+/usr/include/i386/signal.h:
+
+/usr/include/i386/_structs.h:
+
+/usr/include/machine/_structs.h:
+
+/usr/include/mach/i386/_structs.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/alloca.h:
+
+xercesc/util/XMLExceptMsgs.hpp:
+
+xercesc/dom/DOMError.hpp:
+
+xercesc/util/XMLUni.hpp:
+
+xercesc/framework/XMLErrorReporter.hpp:
+
+xercesc/util/PanicHandler.hpp:
+
+xercesc/util/XMLFileMgr.hpp:
+
+xercesc/util/XMLMutexMgr.hpp:
+
+xercesc/dom/DOMException.hpp:
+
+xercesc/dom/DOMLSException.hpp:
+
+xercesc/dom/DOMRangeException.hpp:
+
+xercesc/framework/MemoryManager.hpp:
+
+xercesc/util/XMLString.hpp:
+
+xercesc/util/BaseRefVectorOf.hpp:
+
+xercesc/util/ArrayIndexOutOfBoundsException.hpp:
+
+xercesc/util/XMLEnumerator.hpp:
+
+xercesc/util/BaseRefVectorOf.c:
+
+xercesc/framework/XMLBuffer.hpp:
+
+/usr/include/string.h:
+
+/usr/include/strings.h:
+
+/usr/include/assert.h:
+
+xercesc/util/XMLMsgLoader.hpp:
+
+xercesc/util/XMLDOMMsg.hpp:
+
+xercesc/dom/impl/DOMImplementationImpl.hpp:
+
+xercesc/dom/DOMImplementationSource.hpp:
+
+xercesc/dom/DOMException.hpp:

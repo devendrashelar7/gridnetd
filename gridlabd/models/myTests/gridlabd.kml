@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <name>changed_IEEE_37node.glm</name>
+    <description>GridLAB-D results for 2000-01-01 00:00:00 EST</description>
+<Style id="overhead_line">
+ <LineStyle>
+  <color>7f00ffff</color>
+  <width>4</width>
+ </LineStyle>
+ <PolyStyle>
+  <color>7f00ff00</color>
+ </PolyStyle>
+</Style>
+<Style id="underground_line">
+ <LineStyle>
+  <color>3f00ffff</color>
+  <width>4</width>
+ </LineStyle>
+ <PolyStyle>
+  <color>3f00ff00</color>
+ </PolyStyle>
+</Style>
+  <Folder><name>Class node</name>
+    <description>Module powerflow (V2.00)</description>
+  </Folder>
+  <Folder><name>Class line_spacing</name>
+    <description>Module powerflow (V2.00)</description>
+  </Folder>
+  <Folder><name>Class overhead_line</name>
+    <description>Module powerflow (V2.00)</description>
+  </Folder>
+  <Folder><name>Class overhead_line_conductor</name>
+    <description>Module powerflow (V2.00)</description>
+  </Folder>
+  <Folder><name>Class line_configuration</name>
+    <description>Module powerflow (V2.00)</description>
+  </Folder>
+  <Folder><name>Class load</name>
+    <description>Module powerflow (V2.00)</description>
+  </Folder>
+  </Document>
+</kml>

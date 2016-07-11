@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|x64">
+      <Configuration>Template</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8BFAB682-B7FD-4422-AB71-3154DF337AA2}</ProjectGuid>
+    <RootNamespace>CBLAS</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\third_party\CBLAS\caxpy.c" />
+    <ClCompile Include="..\third_party\CBLAS\ccopy.c" />
+    <ClCompile Include="..\third_party\CBLAS\cdotc.c" />
+    <ClCompile Include="..\third_party\CBLAS\cgemv.c" />
+    <ClCompile Include="..\third_party\CBLAS\cgerc.c" />
+    <ClCompile Include="..\third_party\CBLAS\chemv.c" />
+    <ClCompile Include="..\third_party\CBLAS\cher2.c" />
+    <ClCompile Include="..\third_party\CBLAS\cscal.c" />
+    <ClCompile Include="..\third_party\CBLAS\ctrsv.c" />
+    <ClCompile Include="..\third_party\CBLAS\dasum.c" />
+    <ClCompile Include="..\third_party\CBLAS\daxpy.c" />
+    <ClCompile Include="..\third_party\CBLAS\dcabs1.c" />
+    <ClCompile Include="..\third_party\CBLAS\dcopy.c" />
+    <ClCompile Include="..\third_party\CBLAS\ddot.c" />
+    <ClCompile Include="..\third_party\CBLAS\dgemv.c" />
+    <ClCompile Include="..\third_party\CBLAS\dger.c" />
+    <ClCompile Include="..\third_party\CBLAS\dnrm2.c" />
+    <ClCompile Include="..\third_party\CBLAS\drot.c" />
+    <ClCompile Include="..\third_party\CBLAS\dscal.c" />
+    <ClCompile Include="..\third_party\CBLAS\dsymv.c" />
+    <ClCompile Include="..\third_party\CBLAS\dsyr2.c" />
+    <ClCompile Include="..\third_party\CBLAS\dtrsv.c" />
+    <ClCompile Include="..\third_party\CBLAS\dzasum.c" />
+    <ClCompile Include="..\third_party\CBLAS\dznrm2.c" />
+    <ClCompile Include="..\third_party\CBLAS\icamax.c" />
+    <ClCompile Include="..\third_party\CBLAS\idamax.c" />
+    <ClCompile Include="..\third_party\CBLAS\isamax.c" />
+    <ClCompile Include="..\third_party\CBLAS\izamax.c" />
+    <ClCompile Include="..\third_party\CBLAS\sasum.c" />
+    <ClCompile Include="..\third_party\CBLAS\saxpy.c" />
+    <ClCompile Include="..\third_party\CBLAS\scasum.c" />
+    <ClCompile Include="..\third_party\CBLAS\scnrm2.c" />
+    <ClCompile Include="..\third_party\CBLAS\scopy.c" />
+    <ClCompile Include="..\third_party\CBLAS\sdot.c" />
+    <ClCompile Include="..\third_party\CBLAS\sgemv.c" />
+    <ClCompile Include="..\third_party\CBLAS\sger.c" />
+    <ClCompile Include="..\third_party\CBLAS\snrm2.c" />
+    <ClCompile Include="..\third_party\CBLAS\srot.c" />
+    <ClCompile Include="..\third_party\CBLAS\sscal.c" />
+    <ClCompile Include="..\third_party\CBLAS\ssymv.c" />
+    <ClCompile Include="..\third_party\CBLAS\ssyr2.c" />
+    <ClCompile Include="..\third_party\CBLAS\strsv.c" />
+    <ClCompile Include="..\third_party\CBLAS\zaxpy.c" />
+    <ClCompile Include="..\third_party\CBLAS\zcopy.c" />
+    <ClCompile Include="..\third_party\CBLAS\zdotc.c" />
+    <ClCompile Include="..\third_party\CBLAS\zgemv.c" />
+    <ClCompile Include="..\third_party\CBLAS\zgerc.c" />
+    <ClCompile Include="..\third_party\CBLAS\zhemv.c" />
+    <ClCompile Include="..\third_party\CBLAS\zher2.c" />
+    <ClCompile Include="..\third_party\CBLAS\zscal.c" />
+    <ClCompile Include="..\third_party\CBLAS\ztrsv.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\third_party\CBLAS\f2c.h" />
+    <ClInclude Include="..\third_party\CBLAS\slu_Cnames.h" />
+    <ClInclude Include="..\third_party\CBLAS\superlu_f2c.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="pthreads.vcxproj">
+      <Project>{813fb401-55b7-4215-9bb1-4ecdb809ffcd}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
